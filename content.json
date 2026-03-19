@@ -7,9 +7,9 @@
     "telefono": "+1 (305) 600-7000",
     "direccion": { "es": "Miami, Florida, USA", "en": "Miami, Florida, USA" },
     "redes": {
-      "facebook": "https://facebook.com/dcevelus",
-      "instagram": "https://instagram.com/dcevelus",
-      "linkedin": "https://linkedin.com/company/dcevelus"
+      "facebook": "https://facebook.com/",
+      "instagram": "https://instagram.com/",
+      "linkedin": "https://linkedin.com/company/"
     }
   },
   "hero": {
