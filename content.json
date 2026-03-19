@@ -1,0 +1,148 @@
+{
+  "empresa": {
+    "nombre": "DCEvel US",
+    "logo": "images/logo.png",
+    "whatsapp": "13051234567",
+    "email": "info@dcevelusllc.com",
+    "telefono": "+1 (305) 600-7000",
+    "direccion": { "es": "Miami, Florida, USA", "en": "Miami, Florida, USA" },
+    "redes": {
+      "facebook": "https://facebook.com/dcevelus",
+      "instagram": "https://instagram.com/dcevelus",
+      "linkedin": "https://linkedin.com/company/dcevelus"
+    }
+  },
+  "hero": {
+    "etiqueta": { "es": "IMPORTACIÓN Y DISTRIBUCIÓN", "en": "IMPORT & DISTRIBUTION" },
+    "titulo": { "es": "Tu socio confiable en frutas tropicales", "en": "Your trusted tropical fruit partner" },
+    "subtitulo": {
+      "es": "Conectamos la riqueza agrícola de Latinoamérica con los mercados más exigentes de Norteamérica. Banano, plátano y piña de origen certificado.",
+      "en": "We connect Latin America's agricultural wealth with North America's most demanding markets. Certified origin banana, plantain and pineapple."
+    },
+    "imagen": "images/hero.jpg",
+    "boton1": { "es": "Ver productos", "en": "View products" },
+    "boton2": { "es": "Contactar ventas", "en": "Contact sales" }
+  },
+  "estadisticas": [
+    { "valor": "10+", "texto": { "es": "Años de operación", "en": "Years of operation" } },
+    { "valor": "15+", "texto": { "es": "Estados atendidos", "en": "States served" } },
+    { "valor": "FDA", "texto": { "es": "Registrado", "en": "Registered" } },
+    { "valor": "24h", "texto": { "es": "Respuesta garantizada", "en": "Guaranteed response" } }
+  ],
+  "productos": {
+    "etiqueta": { "es": "PRODUCTOS", "en": "PRODUCTS" },
+    "titulo": { "es": "Frutas de origen premium", "en": "Premium origin fruits" },
+    "subtitulo": {
+      "es": "Importamos directamente desde fincas certificadas en Ecuador, con trazabilidad completa desde el campo hasta su almacén.",
+      "en": "We import directly from certified farms in Ecuador, with full traceability from field to your warehouse."
+    },
+    "lista": [
+      {
+        "nombre": { "es": "Banano Orgánico", "en": "Organic Banana" },
+        "imagen": "images/banana.jpg",
+        "emoji": "🍌",
+        "descripcion": {
+          "es": "Banano Cavendish orgánico de exportación ecuatoriana. Certificado USDA Organic, ideal para cadenas de supermercados y distribuidores mayoristas.",
+          "en": "Organic Ecuadorian Cavendish export banana. USDA Organic certified, ideal for supermarket chains and wholesale distributors."
+        },
+        "caracteristicas": [
+          { "es": "USDA Organic", "en": "USDA Organic" },
+          { "es": "FDA Compliant", "en": "FDA Compliant" },
+          { "es": "Year-round supply", "en": "Year-round supply" },
+          { "es": "Custom labeling", "en": "Custom labeling" }
+        ]
+      },
+      {
+        "nombre": { "es": "Plátano Verde", "en": "Green Plantain" },
+        "imagen": "images/platano.jpg",
+        "emoji": "🥒",
+        "descripcion": {
+          "es": "Plátano barraganete para el mercado hispano y caribeño de EE.UU. Producto estrella con demanda constante y márgenes atractivos.",
+          "en": "Barraganete plantain for the US Hispanic and Caribbean market. Star product with consistent demand and attractive margins."
+        },
+        "caracteristicas": [
+          { "es": "High demand", "en": "High demand" },
+          { "es": "Consistent sizing", "en": "Consistent sizing" },
+          { "es": "Cold chain", "en": "Cold chain" },
+          { "es": "Bulk available", "en": "Bulk available" }
+        ]
+      },
+      {
+        "nombre": { "es": "Piña MD2 Golden", "en": "MD2 Golden Pineapple" },
+        "imagen": "images/pina.jpg",
+        "emoji": "🍍",
+        "descripcion": {
+          "es": "Piña extra dulce variedad MD2, la más demandada en el mercado norteamericano. Corona perfecta, maduración uniforme y presentación premium.",
+          "en": "Extra sweet MD2 pineapple, the most demanded in the North American market. Perfect crown, uniform ripening and premium presentation."
+        },
+        "caracteristicas": [
+          { "es": "MD2 Golden", "en": "MD2 Golden" },
+          { "es": "16+ Brix", "en": "16+ Brix" },
+          { "es": "Retail ready", "en": "Retail ready" },
+          { "es": "Private label", "en": "Private label" }
+        ]
+      }
+    ]
+  },
+  "nosotros": {
+    "etiqueta": { "es": "SOBRE NOSOTROS", "en": "ABOUT US" },
+    "titulo": { "es": "Puente comercial entre Ecuador y Estados Unidos", "en": "Commercial bridge between Ecuador and the United States" },
+    "parrafos": [
+      {
+        "es": "DCEvel US LLC es la filial norteamericana del grupo DCEvel, operando desde Miami como hub de importación y distribución de frutas tropicales premium para todo Estados Unidos.",
+        "en": "DCEvel US LLC is the North American subsidiary of the DCEvel group, operating from Miami as an import and distribution hub for premium tropical fruits across the United States."
+      },
+      {
+        "es": "Con más de una década de relaciones directas con productores ecuatorianos, eliminamos intermediarios para ofrecer el mejor precio sin sacrificar calidad.",
+        "en": "With over a decade of direct relationships with Ecuadorian producers, we eliminate intermediaries to offer the best price without sacrificing quality."
+      }
+    ],
+    "valores": [
+      { "icono": "→", "titulo": { "es": "Cadena directa", "en": "Direct chain" }, "desc": { "es": "Sin intermediarios. Del productor a su negocio.", "en": "No intermediaries. From producer to your business." } },
+      { "icono": "→", "titulo": { "es": "Cumplimiento FDA", "en": "FDA Compliance" }, "desc": { "es": "Todos nuestros productos cumplen regulaciones federales.", "en": "All our products comply with federal regulations." } },
+      { "icono": "→", "titulo": { "es": "Logística integrada", "en": "Integrated logistics" }, "desc": { "es": "Cobertura nacional con red de distribución propia.", "en": "National coverage with our own distribution network." } },
+      { "icono": "→", "titulo": { "es": "Soporte dedicado", "en": "Dedicated support" }, "desc": { "es": "Ejecutivo comercial asignado a cada cuenta.", "en": "Commercial executive assigned to each account." } }
+    ]
+  },
+  "proceso": {
+    "etiqueta": { "es": "CÓMO TRABAJAMOS", "en": "HOW WE WORK" },
+    "titulo": { "es": "Proceso simplificado para usted", "en": "Simplified process for you" },
+    "subtitulo": {
+      "es": "Nos encargamos de toda la cadena logística para que usted se enfoque en su negocio.",
+      "en": "We handle the entire logistics chain so you can focus on your business."
+    },
+    "pasos": [
+      { "num": "01", "titulo": { "es": "Consulta", "en": "Consultation" }, "desc": { "es": "Evaluamos sus necesidades de volumen, frecuencia y especificaciones.", "en": "We evaluate your volume, frequency and specification needs." } },
+      { "num": "02", "titulo": { "es": "Cotización", "en": "Quotation" }, "desc": { "es": "Propuesta comercial personalizada en menos de 24 horas.", "en": "Customized commercial proposal in less than 24 hours." } },
+      { "num": "03", "titulo": { "es": "Importación", "en": "Import" }, "desc": { "es": "Gestión completa de importación, aduanas y cumplimiento FDA.", "en": "Complete import management, customs and FDA compliance." } },
+      { "num": "04", "titulo": { "es": "Control", "en": "Control" }, "desc": { "es": "Inspección de calidad en puerto de destino antes de liberación.", "en": "Quality inspection at destination port before release." } },
+      { "num": "05", "titulo": { "es": "Entrega", "en": "Delivery" }, "desc": { "es": "Distribución refrigerada puerta a puerta en todo EE.UU.", "en": "Refrigerated door-to-door distribution throughout the US." } },
+      { "num": "06", "titulo": { "es": "Seguimiento", "en": "Follow-up" }, "desc": { "es": "Feedback continuo y ajuste de pedidos según demanda.", "en": "Continuous feedback and order adjustment based on demand." } }
+    ]
+  },
+  "galeria": {
+    "etiqueta": { "es": "GALERÍA", "en": "GALLERY" },
+    "titulo": { "es": "Nuestras operaciones", "en": "Our operations" },
+    "subtitulo": {
+      "es": "Desde las fincas en Ecuador hasta los almacenes en Estados Unidos.",
+      "en": "From farms in Ecuador to warehouses in the United States."
+    },
+    "imagenes": [
+      { "src": "images/galeria-1.jpg", "texto": { "es": "Origen Ecuador", "en": "Ecuador origin" } },
+      { "src": "images/galeria-2.jpg", "texto": { "es": "Control de calidad", "en": "Quality control" } },
+      { "src": "images/galeria-3.jpg", "texto": { "es": "Puerto de Miami", "en": "Port of Miami" } },
+      { "src": "images/galeria-4.jpg", "texto": { "es": "Centro de distribución", "en": "Distribution center" } },
+      { "src": "images/galeria-5.jpg", "texto": { "es": "Entrega a retailers", "en": "Retail delivery" } },
+      { "src": "images/galeria-6.jpg", "texto": { "es": "Equipo DCEvel US", "en": "DCEvel US Team" } }
+    ]
+  },
+  "certificaciones": ["USDA Organic", "FDA Registered", "Global G.A.P.", "Fair Trade USA", "Non-GMO", "HACCP"],
+  "contacto": {
+    "etiqueta": { "es": "CONTACTO", "en": "CONTACT" },
+    "titulo": { "es": "Comencemos a trabajar juntos", "en": "Let's start working together" },
+    "subtitulo": {
+      "es": "¿Necesita un proveedor confiable de frutas tropicales en Estados Unidos? Nuestro equipo comercial está listo para atenderle.",
+      "en": "Need a reliable tropical fruit supplier in the United States? Our commercial team is ready to serve you."
+    }
+  }
+}
