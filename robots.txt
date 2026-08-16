@@ -1,3 +1,4 @@
--e User-agent: *
+User-agent: *
 Allow: /
+
 Sitemap: https://dcevelusllc.com/sitemap.xml

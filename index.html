@@ -1,523 +1,585 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>DcevelUs LLC — Tropical Fruit Import & Distribution</title>
-<meta name="description" content="Exportamos banano, plátano y piña de la más alta calidad desde Ecuador al mundo. Certificaciones internacionales y sostenibilidad.">
-<meta name="keywords" content="exportador banano ecuador, banana export, piña ecuador, plátano barraganete, fruit exporter latin america, organic banana">
-<!-- Open Graph -->
+<title>DCEvel US LLC — Tropical Fruit Import &amp; Distribution from Miami</title>
+<meta name="description" content="DCEvel US LLC imports and distributes premium banana, plantain and pineapple from Ecuador across the United States. FDA Registered, USDA Organic, HACCP, Global G.A.P. and Fair Trade USA certified.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#151f0d">
+<link rel="canonical" href="https://dcevelusllc.com/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="DCEvel US — Exportadores de Frutas Premium desde Ecuador">
-<meta property="og:description" content="Banano, plátano y piña premium de Ecuador al mundo. Calidad, sostenibilidad y confianza.">
-<meta property="og:image" content="images/og-image.jpg">
-<meta property="og:locale" content="es_EC">
-<meta property="og:locale:alternate" content="en_US">
+<meta property="og:site_name" content="DCEvel US LLC">
+<meta property="og:title" content="DCEvel US LLC — Tropical Fruit Import &amp; Distribution from Miami">
+<meta property="og:description" content="Import and distribution of premium banana, plantain and pineapple from Ecuador across the United States.">
+<meta property="og:image" content="https://dcevelusllc.com/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://dcevelusllc.com/">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_US">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DCEvel US LLC — Tropical Fruit Import &amp; Distribution from Miami">
+<meta name="twitter:description" content="Import and distribution of premium banana, plantain and pineapple from Ecuador across the United States.">
+<meta name="twitter:image" content="https://dcevelusllc.com/images/og-image.jpg">
 <link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Figtree:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "DCEvel US LLC",
+  "url": "https://dcevelusllc.com/",
+  "logo": "https://dcevelusllc.com/images/logo.png",
+  "image": "https://dcevelusllc.com/images/og-image.jpg",
+  "description": "Miami-based importer and distributor of premium banana, plantain and pineapple of Ecuadorian origin across the United States.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Miami",
+    "addressRegion": "FL",
+    "addressCountry": "US"
+  },
+  "email": "info@dcevelusllc.com",
+  "telephone": "+1-305-600-7000",
+  "sameAs": [
+    "https://facebook.com/",
+    "https://instagram.com/",
+    "https://linkedin.com/company/"
+  ]
+}
+</script>
 <style>
-/* ════════════ RESET ════════════ */
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{font-family:'Sora',sans-serif;color:#1a1a1a;background:#fafaf7;overflow-x:hidden;line-height:1.6}
-img{max-width:100%;display:block}a{text-decoration:none;color:inherit}ul{list-style:none}button{font-family:inherit;cursor:pointer}
-
-/* ════════════ VARIABLES ════════════ */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Figtree',sans-serif;color:#151f0d;background:#faf7ec;overflow-x:hidden;line-height:1.6}img{max-width:100%;display:block}a{text-decoration:none;color:inherit}ul{list-style:none}button{font-family:inherit;cursor:pointer}
 :root{
-  --g950:#064e3b;--g900:#022c22;--g800:#065f46;--g700:#047857;--g600:#059669;
-  --g500:#10b981;--g400:#34d399;--g300:#6ee7b7;--g200:#a7f3d0;--g100:#d1fae5;--g50:#ecfdf5;
-  --gold:#c9a84c;--gold-l:#f0dfa0;--dark:#0a1510;
-  --serif:'Libre Baskerville',Georgia,serif;
-  --sans:'Sora',sans-serif;
-  --mw:1220px;
-  --ease:cubic-bezier(.23,1,.32,1);
+--night:#151f0d;--night2:#1e2c13;--night3:#2b4020;
+--cream:#faf7ec;--surface:#ffffff;--surface2:#f0eddb;
+--ink:#151f0d;--ink2:#4a5740;--ink3:#8b9480;--line:rgba(21,31,13,.12);
+--lime:#c8ff5c;--lime-d:#8fc233;--lime-dd:#5f9018;
+--onnight:#f4f7ea;--onnight2:#a9b89b;
+--display:'Bricolage Grotesque',sans-serif;--body:'Figtree',sans-serif;--mono:'IBM Plex Mono',monospace;--script:'Caveat',cursive;
+--mw:1200px;--ease:cubic-bezier(.23,1,.32,1);--rad:18px;--rad-sm:12px
 }
+::selection{background:var(--lime);color:var(--night)}
+::-webkit-scrollbar{width:11px}::-webkit-scrollbar-track{background:var(--cream)}::-webkit-scrollbar-thumb{background:var(--surface2);border:3px solid var(--cream);border-radius:8px}::-webkit-scrollbar-thumb:hover{background:var(--lime-d)}
+html{scrollbar-color:var(--surface2) var(--cream)}
+:focus-visible{outline:2px solid var(--lime-dd);outline-offset:3px;border-radius:3px}
+.icon{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.wrap{max-width:var(--mw);margin:0 auto;padding:0 28px}
+.stitle{font-family:var(--display);font-size:clamp(32px,4.8vw,52px);font-weight:800;line-height:1.05;letter-spacing:-.02em;color:var(--ink);margin-bottom:16px}
+.stitle.light{color:var(--onnight)}
+.ssub{font-size:15px;color:var(--ink2);line-height:1.75;max-width:540px;font-weight:400}
+.tc{text-align:center}.mx{margin-left:auto;margin-right:auto}.shead{margin-bottom:52px}
+.mono{font-family:var(--mono)}
+.r{opacity:0;transform:translateY(26px);transition:opacity .7s var(--ease),transform .7s var(--ease)}.r.l{transform:translateX(-26px)}.r.ri{transform:translateX(26px)}.r.v{opacity:1;transform:translate(0)}.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.2s}.d4{transition-delay:.24s}.d5{transition-delay:.28s}.d6{transition-delay:.32s}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:15px 30px;font-size:13px;font-weight:700;letter-spacing:.2px;border:none;border-radius:999px;transition:all .35s var(--ease)}
+.bp{background:var(--lime);color:var(--night);box-shadow:0 14px 30px -12px rgba(200,255,92,.5)}.bp:hover{background:var(--onnight);transform:translateY(-2px) scale(1.02);box-shadow:0 18px 34px -12px rgba(200,255,92,.6)}
+.bo{background:transparent;color:var(--ink);border:1.5px solid var(--line)}.bo:hover{border-color:var(--ink);transform:translateY(-2px)}
+.bo-dark{background:transparent;color:var(--onnight);border:1.5px solid rgba(244,247,234,.28)}.bo-dark:hover{border-color:var(--lime);color:var(--lime);transform:translateY(-2px)}
+.divider{width:44px;height:3px;background:var(--lime-d);margin:0 auto 36px;border-radius:2px}
+.divider.light{background:var(--lime)}
 
-/* ════════════ UTILITIES ════════════ */
-.wrap{max-width:var(--mw);margin:0 auto;padding:0 24px}
-.tag{display:inline-block;padding:6px 18px;background:var(--g100);color:var(--g700);border-radius:50px;font-size:11px;font-weight:700;letter-spacing:2.5px;margin-bottom:16px}
-.stitle{font-family:var(--serif);font-size:clamp(28px,5vw,48px);font-weight:700;line-height:1.12;color:var(--g950);margin-bottom:14px}
-.ssub{font-size:16px;color:#666;line-height:1.75;max-width:560px}
-.tc{text-align:center}.mx{margin-left:auto;margin-right:auto}
-
-/* ════════════ ANIMATIONS ════════════ */
-.r{opacity:0;transform:translateY(32px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
-.r.l{transform:translateX(-32px)}.r.ri{transform:translateX(32px)}
-.r.v{opacity:1;transform:translate(0)}
-.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
-.d4{transition-delay:.35s}.d5{transition-delay:.4s}.d6{transition-delay:.45s}
-
-/* ════════════ BUTTONS ════════════ */
-.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:50px;font-size:14px;font-weight:600;letter-spacing:.3px;transition:all .35s var(--ease);border:none}
-.bp{background:var(--g700);color:#fff}.bp:hover{background:var(--g600);transform:translateY(-2px);box-shadow:0 14px 32px rgba(22,163,74,.28)}
-.bo{background:0;color:#fff;border:2px solid rgba(255,255,255,.35)}.bo:hover{background:rgba(255,255,255,.1);border-color:#fff;transform:translateY(-2px)}
-
-/* ═══════════════════════════════════════════════
-   NAVBAR
-   ═══════════════════════════════════════════════ */
-.nav{position:fixed;top:0;left:0;right:0;z-index:1000;transition:all .4s ease}
-.nav.s{background:rgba(255,255,255,.97);backdrop-filter:blur(14px);box-shadow:0 1px 20px rgba(0,0,0,.06)}
-.ni{display:flex;align-items:center;justify-content:space-between;height:68px}
-.nlogo{font-family:var(--serif);font-size:20px;font-weight:700;display:flex;align-items:center;gap:8px;transition:color .3s}
-.nlogo-i{width:32px;height:32px;background:var(--g700);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px}
-.nlogo .ac{color:var(--g500)}
-.nlinks{display:flex;gap:28px}
-.nlinks a{font-size:13px;font-weight:500;transition:color .3s;cursor:pointer;position:relative}
-.nlinks a::after{content:'';position:absolute;bottom:-3px;left:0;width:0;height:2px;background:var(--g500);transition:width .3s}
-.nlinks a:hover::after{width:100%}
+/* floating pill nav */
+.navwrap{position:fixed;top:16px;left:0;right:0;z-index:1000;display:flex;justify-content:center;padding:0 16px;pointer-events:none}
+.nav{pointer-events:auto;width:100%;max-width:1180px;background:rgba(21,31,13,.88);backdrop-filter:blur(16px);border:1px solid rgba(244,247,234,.08);border-radius:999px;box-shadow:0 20px 44px -20px rgba(21,31,13,.5);transition:all .3s}
+.ni{display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 10px 0 22px}
+.nlogo{display:flex;align-items:center;gap:9px}.nlogo img{height:30px;display:block}
+.nlinks{display:flex;gap:26px}.nlinks a{font-size:13px;font-weight:500;color:var(--onnight2);transition:color .3s;cursor:pointer;position:relative}.nlinks a:hover{color:var(--onnight)}
 .nright{display:flex;align-items:center;gap:12px}
-.lsw{display:flex;border-radius:24px;overflow:hidden;border:1.5px solid rgba(0,0,0,.1)}
-.lbtn{padding:4px 11px;font-size:11px;font-weight:700;border:none;background:0;transition:all .3s;font-family:'Sora',sans-serif}
-.lbtn.on{background:var(--g700);color:#fff}
-.hbg{display:none;background:0;border:0;padding:6px;flex-direction:column;gap:5px}
-.hbg span{display:block;width:21px;height:2px;transition:all .3s;border-radius:2px}
-.mmenu{position:fixed;top:68px;left:0;right:0;background:#fff;padding:16px 24px;box-shadow:0 10px 40px rgba(0,0,0,.08);transform:translateY(-120%);transition:transform .4s ease;z-index:999}
-.mmenu.open{transform:translateY(0)}
-.mmenu a{display:block;padding:14px 0;font-size:15px;font-weight:500;color:var(--g950);border-bottom:1px solid #f2f2f2;cursor:pointer}
-@media(max-width:900px){.nlinks{display:none}.hbg{display:flex}}
+.lsw{display:flex;gap:2px}.lbtn{padding:6px 11px;font-size:11px;font-weight:600;letter-spacing:.5px;border:1px solid rgba(244,247,234,.18);background:transparent;color:var(--onnight2);transition:all .3s;font-family:var(--body);border-radius:999px}.lbtn.on{border-color:var(--lime);color:var(--lime);background:rgba(200,255,92,.1)}
+.ncta{display:inline-flex;padding:11px 22px;font-size:12px}
+.hbg{display:none;background:none;border:0;padding:6px;flex-direction:column;gap:6px}.hbg span{display:block;width:20px;height:2px;background:var(--onnight);border-radius:2px;transition:all .3s}
+.mmenu{position:fixed;top:88px;left:16px;right:16px;background:var(--night2);padding:16px 22px;border-radius:24px;transform:translateY(-130%) scale(.97);transform-origin:top;transition:transform .4s var(--ease);z-index:999;box-shadow:0 20px 40px -20px rgba(21,31,13,.5)}.mmenu.open{transform:translateY(0) scale(1)}.mmenu a{display:block;padding:13px 4px;font-size:14px;font-weight:500;color:var(--onnight2);border-bottom:1px solid rgba(244,247,234,.08);cursor:pointer}.mmenu a:last-child{border-bottom:0}
+@media(max-width:960px){.nlinks{display:none}.ncta{display:none}.hbg{display:flex}}
 
-/* ═══════════════════════════════════════════════
-   HERO
-   ═══════════════════════════════════════════════ */
-.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden}
-.hero-bg{position:absolute;inset:0;background:linear-gradient(160deg,#ecfdf5 0%,#ffffff 40%,#f0fdfa 100%)}
-.hero-bg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.18}
-.hero-ov{position:absolute;inset:0;background:
-  radial-gradient(ellipse at 70% 50%,rgba(34,197,94,.1),transparent 60%),
-  radial-gradient(ellipse at 20% 80%,rgba(201,168,76,.06),transparent 50%)}
-.hero-pat{position:absolute;inset:0;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E")}
-.hero-c{position:relative;z-index:2;max-width:var(--mw);margin:0 auto;padding:130px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;width:100%}
-.hero-tag{display:inline-block;padding:7px 18px;background:rgba(255,255,255,.07);color:var(--gold-l);border-radius:50px;font-size:11px;font-weight:700;letter-spacing:2.5px;margin-bottom:22px;border:1px solid rgba(255,255,255,.07)}
-.hero h1{font-family:var(--serif);font-size:clamp(34px,5.2vw,58px);font-weight:700;color:#fff;line-height:1.08;margin-bottom:22px}
-.hero .sub{font-size:17px;color:rgba(255,255,255,.62);line-height:1.75;max-width:490px;margin-bottom:34px}
-.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
-.hero-vis{position:relative;display:flex;align-items:center;justify-content:center}
-.hcard{width:280px;height:360px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:22px;overflow:hidden;backdrop-filter:blur(4px)}
-.hcard img{width:100%;height:100%;object-fit:cover}
-.hcard-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(22,101,52,.25),rgba(22,101,52,.08))}
-.hcard-ph .em{font-size:96px;animation:fl 4s ease-in-out infinite}
-.hcard-ph .lb{color:#fff;font-family:var(--serif);font-size:19px;margin-top:10px}
-@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
-.hbadge{position:absolute;padding:9px 16px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:16px;color:#fff;font-size:12px;font-weight:600;backdrop-filter:blur(6px);white-space:nowrap}
-@media(max-width:900px){
-  .hero-c{grid-template-columns:1fr;text-align:center;padding-top:115px}
-  .hero .sub{margin:0 auto 34px}
-  .hero-btns{justify-content:center}
-  .hero-vis{display:none}
+/* hero */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:var(--night);isolation:isolate}
+.hero-tex{position:absolute;inset:0;
+background-image:
+radial-gradient(rgba(200,255,92,.45) 1.4px,transparent 1.4px),
+linear-gradient(rgba(200,255,92,.05) 1px,transparent 1px),
+linear-gradient(90deg,rgba(200,255,92,.05) 1px,transparent 1px);
+background-size:24px 24px,120px 120px,120px 120px;
+background-position:0 0,0 0,0 0;
+-webkit-mask-image:radial-gradient(ellipse 75% 90% at 72% 45%,#000 30%,transparent 78%);mask-image:radial-gradient(ellipse 75% 90% at 72% 45%,#000 30%,transparent 78%);
+animation:texdrift 22s linear infinite}
+@keyframes texdrift{0%{background-position:0 0,0 0,0 0}100%{background-position:-120px -120px,-120px -120px,-120px -120px}}
+.hero-glow{position:absolute;inset:0;background:radial-gradient(ellipse 60% 55% at 78% 45%,rgba(200,255,92,.14),transparent 70%)}
+.hero-blob{position:absolute;border-radius:50%;filter:blur(50px);pointer-events:none;z-index:0}
+.hb1{width:560px;height:560px;background:radial-gradient(circle,rgba(200,255,92,.4),transparent 68%);top:-14%;right:-8%;animation:blobmove1 10s ease-in-out infinite}
+.hb2{width:460px;height:460px;background:radial-gradient(circle,rgba(200,255,92,.32),transparent 68%);bottom:-18%;left:-6%;animation:blobmove2 13s ease-in-out infinite}
+.hb3{width:340px;height:340px;background:radial-gradient(circle,rgba(200,255,92,.3),transparent 68%);top:34%;left:30%;animation:blobmove3 8s ease-in-out infinite}
+@keyframes blobmove1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-90px,70px) scale(1.2)}}
+@keyframes blobmove2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(80px,-60px) scale(1.15)}}
+@keyframes blobmove3{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(60px,50px) scale(.82)}}
+.spark{position:absolute;width:5px;height:5px;border-radius:50%;background:var(--lime);box-shadow:0 0 12px 3px rgba(200,255,92,.7);z-index:1}
+.sp1{top:22%;left:60%;animation:sparkfloat1 9s ease-in-out infinite}
+.sp2{top:64%;left:70%;animation:sparkfloat2 7s ease-in-out infinite}
+.sp3{top:44%;left:82%;animation:sparkfloat3 11s ease-in-out infinite}
+.sp4{top:78%;left:52%;animation:sparkfloat1 8s ease-in-out infinite reverse}
+@keyframes sparkfloat1{0%,100%{transform:translate(0,0);opacity:.3}50%{transform:translate(-30px,-50px);opacity:1}}
+@keyframes sparkfloat2{0%,100%{transform:translate(0,0);opacity:.25}50%{transform:translate(24px,-40px);opacity:.9}}
+@keyframes sparkfloat3{0%,100%{transform:translate(0,0);opacity:.2}50%{transform:translate(-20px,40px);opacity:.85}}
+@media(max-width:900px){.hero-blob{width:280px!important;height:280px!important}.spark{display:none}}
+@media(max-width:640px){
+.hero-blob{filter:blur(28px)}
+.hero-tex{background-image:radial-gradient(rgba(200,255,92,.45) 1.4px,transparent 1.4px);background-size:24px 24px;background-position:0 0}
 }
+.leaf-float{position:absolute;color:var(--lime);opacity:.35;pointer-events:none;z-index:1}
+.leaf-float svg{width:100%;height:100%}
+@keyframes drift1{0%,100%{transform:translate(0,0) rotate(-8deg)}50%{transform:translate(-14px,18px) rotate(6deg)}}
+@keyframes drift2{0%,100%{transform:translate(0,0) rotate(10deg)}50%{transform:translate(16px,-14px) rotate(-4deg)}}
+.l1{width:46px;height:46px;top:18%;left:8%;animation:drift1 9s ease-in-out infinite}
+.l2{width:30px;height:30px;top:70%;left:14%;animation:drift2 7s ease-in-out infinite}
+.l3{width:38px;height:38px;top:12%;right:6%;animation:drift2 8s ease-in-out infinite}
+@media(max-width:900px){.leaf-float{display:none}}
+.hero-c{position:relative;z-index:2;max-width:var(--mw);margin:0 auto;padding:150px 28px 100px;display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center;width:100%}
+.hero-tagline{display:inline-flex;align-items:center;gap:9px;padding:8px 16px 8px 8px;background:rgba(244,247,234,.06);border:1px solid rgba(244,247,234,.12);border-radius:999px;margin-bottom:26px}
+.hero-tagline i{width:26px;height:26px;border-radius:999px;background:var(--lime);display:flex;align-items:center;justify-content:center;color:var(--night)}.hero-tagline i .icon{width:13px;height:13px}
+.hero-tagline span{font-size:12px;font-weight:600;color:var(--onnight2);letter-spacing:.2px}
+.hero h1{font-family:var(--display);font-size:clamp(38px,5.2vw,58px);font-weight:800;color:var(--onnight);line-height:1.04;letter-spacing:-.02em;margin-bottom:22px}
+.hero h1 em{font-style:normal;color:var(--lime)}
+.hero .sub{font-size:16px;color:var(--onnight2);line-height:1.8;max-width:480px;margin-bottom:24px;font-weight:400}
+.hero-meta{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:36px}.hero-meta span{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:500;color:var(--onnight2)}.hero-meta .icon{color:var(--lime);width:16px;height:16px}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+.hero-vis{position:relative}
+.hcard{width:100%;max-width:420px;aspect-ratio:4/5;position:relative;margin:0 auto;will-change:transform}
+.hcard::before{content:'';position:absolute;inset:6%;background:radial-gradient(ellipse 55% 55% at 50% 48%,rgba(200,255,92,.28),transparent 72%);filter:blur(6px);z-index:0;animation:glowbreathe 5s ease-in-out infinite}
+@keyframes glowbreathe{0%,100%{opacity:.75;transform:scale(1)}50%{opacity:1;transform:scale(1.06)}}
+.hcard-mask{width:100%;height:100%;position:relative;z-index:1;display:flex;align-items:center;justify-content:center}
+.hcard-mask img{width:100%;height:100%;object-fit:contain;object-position:50% 50%;filter:drop-shadow(0 26px 30px rgba(0,0,0,.45));transform-origin:50% 96%;animation:plantsway 6s ease-in-out infinite}
+@keyframes plantsway{0%,100%{transform:rotate(-1.1deg) translateY(0)}50%{transform:rotate(1.1deg) translateY(-5px)}}
+.scrollcue{position:absolute;left:50%;bottom:28px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;color:var(--onnight2);font-size:10px;letter-spacing:2px;text-transform:uppercase;z-index:2;animation:bob 2.2s ease-in-out infinite}
+.scrollcue .icon{width:16px;height:16px}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,8px)}}
+@media(max-width:900px){.hero-c{grid-template-columns:1fr;text-align:center;padding-top:126px}.hero .sub{margin:0 auto 24px}.hero-meta,.hero-btns{justify-content:center}.hero-vis{max-width:300px;margin:0 auto}.hero-script{font-size:min(30vw,180px)}.scrollcue{display:none}}
 
-/* ═══════════════════════════════════════════════
-   STATS
-   ═══════════════════════════════════════════════ */
-.stats{background:#fff;border-radius:24px;padding:36px 40px;max-width:1040px;margin:-46px auto 0;position:relative;z-index:10;box-shadow:0 18px 56px rgba(0,0,0,.06);display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
-.st-i{text-align:center}
-.st-v{font-family:var(--serif);font-size:32px;font-weight:700;color:var(--g700)}
-.st-l{font-size:12px;color:#999;margin-top:3px;font-weight:500;letter-spacing:.5px}
-@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr);margin:-30px 16px 0;padding:22px 18px}.st-v{font-size:26px}}
+/* stats */
+.stats{padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:2px;max-width:var(--mw);margin:-46px auto 0;border-radius:var(--rad);overflow:hidden;position:relative;z-index:3;background:var(--line)}
+.st-i{text-align:center;background:var(--surface);padding:30px 12px}.st-v{font-family:var(--mono);font-size:34px;font-weight:600;color:var(--lime-dd);letter-spacing:-.01em}.st-l{font-size:12px;color:var(--ink3);margin-top:6px;font-weight:500}
+@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr)}.st-v{font-size:26px}}
 
-/* ═══════════════════════════════════════════════
-   PRODUCTS
-   ═══════════════════════════════════════════════ */
-.prods{padding:110px 0}
-.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:52px}
-.pcard{background:#fff;border-radius:24px;overflow:hidden;border:1px solid #eee;transition:all .4s var(--ease)}
-.pcard:hover{transform:translateY(-7px);box-shadow:0 22px 56px rgba(0,0,0,.08);border-color:var(--g300)}
-.pimg{height:220px;position:relative;overflow:hidden;background:linear-gradient(135deg,var(--g50),var(--g100))}
-.pimg img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--ease)}
-.pcard:hover .pimg img{transform:scale(1.07)}
-.pimg-ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:76px;transition:transform .5s var(--ease)}
-.pcard:hover .pimg-ph{transform:scale(1.12) rotate(-4deg)}
-.pbody{padding:24px}
-.pname{font-family:var(--serif);font-size:19px;font-weight:700;color:var(--g950);margin-bottom:10px}
-.pdesc{font-size:13px;color:#777;line-height:1.7;margin-bottom:16px}
-.pfeats{display:flex;flex-wrap:wrap;gap:6px}
-.pfeat{padding:4px 11px;background:var(--g50);color:var(--g700);border-radius:50px;font-size:10.5px;font-weight:600}
-@media(max-width:900px){.pgrid{grid-template-columns:1fr;max-width:420px;margin:52px auto 0}}
+.prods{padding:110px 0}.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.pcard{background:var(--surface);overflow:hidden;transition:all .4s var(--ease);border:1px solid var(--line);border-radius:var(--rad);will-change:transform}.pcard:hover{box-shadow:0 26px 54px -28px rgba(21,31,13,.28);transform:translateY(-6px) rotate(-.3deg);border-color:transparent}
+.pimg{height:260px;position:relative;overflow:hidden;background:var(--surface2)}.pimg img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}.pcard:hover .pimg img{transform:scale(1.06) rotate(.5deg)}
+.pbody{padding:26px 24px 28px}.pname{font-family:var(--display);font-size:21px;font-weight:800;color:var(--ink);margin-bottom:10px}.pdesc{font-size:13.5px;color:var(--ink2);line-height:1.7;margin-bottom:18px}
+.pfeats{display:flex;flex-wrap:wrap;gap:7px}.pfeat{padding:5px 13px;background:var(--surface2);color:var(--night2);font-size:10.5px;font-weight:700;border-radius:999px}
+@media(max-width:900px){.pgrid{grid-template-columns:1fr;max-width:440px;margin:0 auto}}
 
-/* ═══════════════════════════════════════════════
-   ABOUT
-   ═══════════════════════════════════════════════ */
-.about{padding:110px 0;background:var(--g950);color:#fff;position:relative;overflow:hidden}
-.about::before{content:'';position:absolute;top:-40%;right:-12%;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(34,197,94,.06),transparent 70%)}
-.about-in{display:grid;grid-template-columns:1fr 1fr;gap:68px;align-items:center}
-.about .tag{background:rgba(255,255,255,.07);color:var(--g300)}
-.about .stitle{color:#fff}
-.about-txt p{color:rgba(255,255,255,.68);line-height:1.8;margin-bottom:14px;font-size:15px}
-.vgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.vcard{padding:22px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.055);border-radius:20px;transition:all .3s ease}
-.vcard:hover{background:rgba(255,255,255,.06);transform:translateY(-3px)}
-.vic{font-size:24px;margin-bottom:8px}
-.vtit{font-family:var(--serif);font-size:15px;font-weight:600;color:#fff;margin-bottom:5px}
-.vdesc{font-size:12px;color:rgba(255,255,255,.5);line-height:1.6}
-@media(max-width:900px){.about-in{grid-template-columns:1fr;gap:36px}}
-@media(max-width:600px){.vgrid{grid-template-columns:1fr}}
+.about{padding:110px 0;background:var(--surface2)}.about-in{display:grid;grid-template-columns:.95fr 1.05fr;gap:64px;align-items:start}
+.about-txt p{color:var(--ink2);line-height:1.85;margin-bottom:15px;font-size:15px}
+.a-photo{position:relative;aspect-ratio:4/5;overflow:hidden;border-radius:var(--rad)}.a-photo img{width:100%;height:100%;object-fit:cover}
+.vgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px}
+.vcard{padding:22px;background:var(--surface);border-radius:var(--rad-sm);transition:all .3s}.vcard:hover{transform:translateY(-3px);box-shadow:0 16px 30px -20px rgba(21,31,13,.25)}
+.vic{color:var(--lime-dd);margin-bottom:10px}.vic .icon{width:21px;height:21px}.vtit{font-family:var(--display);font-size:16px;font-weight:800;color:var(--ink);margin-bottom:5px}.vdesc{font-size:12px;color:var(--ink2);line-height:1.6}
+@media(max-width:900px){.about-in{grid-template-columns:1fr;gap:34px}.a-photo{max-width:420px;margin:0 auto}}@media(max-width:600px){.vgrid{grid-template-columns:1fr}}
 
-/* ═══════════════════════════════════════════════
-   PROCESS
-   ═══════════════════════════════════════════════ */
-.proc{padding:110px 0}
-.prgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:52px}
-.prcard{padding:30px 22px;border-radius:24px;border:1px solid #eee;background:#fff;position:relative;overflow:hidden;transition:all .4s ease}
-.prcard::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--g400),var(--gold));opacity:0;transition:opacity .3s}
-.prcard:hover{transform:translateY(-5px);box-shadow:0 14px 36px rgba(0,0,0,.06)}
-.prcard:hover::before{opacity:1}
-.prnum{font-family:var(--serif);font-size:38px;font-weight:700;color:var(--g200);margin-bottom:12px}
-.prtit{font-family:var(--serif);font-size:17px;font-weight:600;color:var(--g950);margin-bottom:8px}
-.prdesc{font-size:13px;color:#777;line-height:1.7}
-@media(max-width:900px){.prgrid{grid-template-columns:1fr 1fr}}
-@media(max-width:600px){.prgrid{grid-template-columns:1fr}}
+.proc{padding:110px 0}.prgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px 24px;margin-top:8px}
+.prcard{position:relative;padding:34px 26px 30px;margin-top:24px;background:var(--surface);border:1px solid var(--line);border-radius:var(--rad);transition:all .3s}.prcard:hover{box-shadow:0 20px 40px -26px rgba(21,31,13,.2);border-color:transparent;transform:translateY(-4px)}
+.prnode{position:absolute;top:-24px;left:26px;width:48px;height:48px;border-radius:999px;background:var(--night);color:var(--lime);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 22px -8px rgba(21,31,13,.4);z-index:2}
+.prnode .icon{width:21px;height:21px}
+.prnode::after{content:'';position:absolute;inset:-6px;border-radius:999px;border:1.5px solid var(--lime);opacity:0;animation:none}
+.prcard.v .prnode::after{animation:pring 2.6s ease-out .6s infinite}
+.prcard.v .prnode{animation:pop .5s var(--ease) backwards;animation-delay:calc(var(--pi) * .08s + .1s)}
+@keyframes pop{from{transform:scale(.4) rotate(-12deg);opacity:0}to{transform:scale(1) rotate(0);opacity:1}}
+@keyframes pring{0%{transform:scale(.85);opacity:.55}100%{transform:scale(1.35);opacity:0}}
+.prcard:not(:nth-child(3n))::before{content:'';position:absolute;top:0;right:-24px;width:24px;height:2px;background:repeating-linear-gradient(90deg,var(--lime-d) 0 6px,transparent 6px 11px);z-index:1}
+@media(max-width:900px){.prgrid{grid-template-columns:1fr 1fr}.prcard:not(:nth-child(3n))::before{display:none}}
+@media(max-width:600px){.prgrid{grid-template-columns:1fr;gap:34px 0}.prcard{margin-left:20px}.prcard::after{content:'';position:absolute;left:-20px;top:24px;bottom:-34px;width:2px;background:repeating-linear-gradient(180deg,var(--lime-d) 0 6px,transparent 6px 11px)}.prcard:last-child::after{display:none}}
+.prnum{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--ink3);margin-bottom:12px;letter-spacing:.5px}.prtit{font-family:var(--display);font-size:17px;font-weight:800;color:var(--ink);margin-bottom:9px}.prdesc{font-size:12.5px;color:var(--ink2);line-height:1.7}
 
-/* ═══════════════════════════════════════════════
-   GALLERY
-   ═══════════════════════════════════════════════ */
-.gal{padding:110px 0;background:var(--g50)}
-.ggrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:52px}
-.gitem{aspect-ratio:4/3;border-radius:20px;overflow:hidden;position:relative;cursor:pointer;transition:transform .4s ease}
-.gitem:hover{transform:scale(1.015)}
-.gitem img{width:100%;height:100%;object-fit:cover}
-.gitem-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#fff;font-weight:600;font-size:14px}
-.gitem::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.5));opacity:0;transition:opacity .3s}
-.gitem:hover::after{opacity:1}
-.gcap{position:absolute;bottom:14px;left:14px;color:#fff;font-size:13px;font-weight:600;z-index:2;opacity:0;transform:translateY(8px);transition:all .3s}
-.gitem:hover .gcap{opacity:1;transform:translateY(0)}
+.reach{padding:64px 0;text-align:center;background:var(--night);color:var(--onnight)}.reach .ssub{color:var(--onnight2);margin:0 auto}
+.reach-map{position:relative;width:100%;max-width:900px;aspect-ratio:900/400;margin:0 auto}
+.reach-svg{width:100%;height:100%;display:block}
+.route{fill:none;stroke:rgba(200,255,92,.28);stroke-width:2;stroke-dasharray:2 9;stroke-linecap:round}
+.reach.v .route{animation:flow 1.4s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-33}}
+.hub-dot{fill:var(--lime)}.hub-ring{fill:none;stroke:var(--lime);stroke-width:1.5;transform-box:fill-box;transform-origin:center}
+.node-dot{fill:var(--onnight)}.node-ring{fill:none;stroke:var(--onnight);stroke-width:1.5;transform-box:fill-box;transform-origin:center}
+.reach.v .hub-ring,.reach.v .node-ring{animation:mapring 2.4s ease-out infinite}
+.reach.v .node-ring:nth-of-type(3){animation-delay:.5s}.reach.v .node-ring:nth-of-type(5){animation-delay:1s}.reach.v .node-ring:nth-of-type(7){animation-delay:1.5s}
+@keyframes mapring{0%{transform:scale(.8);opacity:.7}100%{transform:scale(2.1);opacity:0}}
+.mover{fill:var(--lime)}
+.map-label{position:absolute;transform:translate(-50%,-50%);display:flex;align-items:center;gap:7px;background:rgba(21,31,13,.9);border:1px solid rgba(244,247,234,.14);padding:7px 14px 7px 10px;border-radius:999px;white-space:nowrap;font-size:12px;font-weight:600;backdrop-filter:blur(6px)}
+.map-label .icon{width:15px;height:15px;color:var(--lime)}
+.hub-label{background:var(--lime);color:var(--night);border:none}.hub-label .icon{display:none}
+@media(max-width:640px){.map-label{font-size:10px;padding:5px 10px 5px 7px;gap:5px}.map-label .icon{width:12px;height:12px}}
+
+.gal{padding:110px 0}.ggrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:0}
+.gitem{aspect-ratio:4/3;overflow:hidden;position:relative;cursor:pointer;border-radius:var(--rad-sm)}.gitem img{width:100%;height:100%;object-fit:cover;transition:all .5s var(--ease)}.gitem:hover img{transform:scale(1.06)}
+.gitem::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(21,31,13,.8));opacity:0;transition:opacity .35s}.gitem:hover::after{opacity:1}
+.gcap{position:absolute;bottom:14px;left:14px;color:#fff;font-size:12px;font-weight:600;z-index:2;opacity:0;transform:translateY(6px);transition:all .35s}.gitem:hover .gcap{opacity:1;transform:translateY(0)}
 @media(max-width:768px){.ggrid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:480px){.ggrid{grid-template-columns:1fr}}
 
-/* ═══════════════════════════════════════════════
-   CERTIFICATIONS
-   ═══════════════════════════════════════════════ */
-.certs{padding:52px 24px;background:#fff;text-align:center}
-.certs-row{display:flex;justify-content:center;gap:32px;flex-wrap:wrap;margin-top:20px}
-.cbadge{width:74px;height:74px;border-radius:50%;background:var(--g50);border:2px solid var(--g200);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:var(--g700);text-align:center;padding:7px;line-height:1.2;transition:all .3s}
-.cbadge:hover{background:var(--g100);transform:scale(1.08)}
+.certs{padding:52px 28px;background:var(--surface2);overflow:hidden}
+.certs-lab{display:block;text-align:center;font-size:12px;font-weight:700;letter-spacing:1.5px;color:var(--ink3);text-transform:uppercase;margin-bottom:26px}
+.marquee{width:100%;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marquee-track{display:flex;gap:14px;width:max-content;animation:mq 26s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.cbadge{padding:14px 22px;background:var(--surface);border-radius:999px;display:flex;align-items:center;gap:9px;font-size:12.5px;font-weight:600;color:var(--ink);white-space:nowrap;box-shadow:0 8px 20px -14px rgba(21,31,13,.25)}.cbadge .icon{width:16px;height:16px;color:var(--lime-dd)}
 
-/* ═══════════════════════════════════════════════
-   CONTACT
-   ═══════════════════════════════════════════════ */
-.contact{padding:110px 0}
-.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:52px;margin-top:52px}
-.cform{display:flex;flex-direction:column;gap:16px}
-.frow{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.fin{width:100%;padding:13px 17px;border:1.5px solid #e0e0e0;border-radius:16px;font-size:14px;font-family:'Sora',sans-serif;transition:all .3s;background:#fff;color:#1a1a1a;outline:0}
-.fin:focus{border-color:var(--g500);box-shadow:0 0 0 3px rgba(34,197,94,.1)}
-.fin::placeholder{color:#bbb}
-textarea.fin{min-height:125px;resize:vertical}
-.cinfo{display:flex;flex-direction:column;gap:20px}
-.icard{padding:22px;background:var(--g50);border-radius:16px;display:flex;align-items:flex-start;gap:14px}
-.iicon{width:42px;height:42px;background:var(--g700);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:17px;flex-shrink:0}
-.ilab{font-weight:700;color:var(--g950);font-size:12px;margin-bottom:2px}
-.ival{color:#666;font-size:14px}
-.hcard2{padding:18px 22px;background:var(--g950);border-radius:16px;color:#fff}
-.hcard2 b{font-size:12px;display:block;margin-bottom:6px}
-.hcard2 span{font-size:12px;opacity:.7;line-height:1.7}
-.fok{display:none;padding:18px;background:var(--g50);border:2px solid var(--g400);border-radius:16px;text-align:center;color:var(--g700);font-weight:600}
-.fok.show{display:block}
-@media(max-width:900px){.cgrid{grid-template-columns:1fr}}
-@media(max-width:600px){.frow{grid-template-columns:1fr}}
+.contact{padding:110px 0;background:var(--surface)}.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:52px}
+.cform{display:flex;flex-direction:column;gap:16px}.frow{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fld{display:flex;flex-direction:column;gap:6px}.flab{font-size:12px;font-weight:700;color:var(--ink2)}
+.fin{width:100%;padding:14px 18px;border:1.5px solid var(--line);background:var(--cream);font-size:14px;font-family:var(--body);transition:all .3s;color:var(--ink);outline:0;border-radius:var(--rad-sm)}.fin:focus{border-color:var(--lime-dd);background:var(--surface)}.fin::placeholder{color:var(--ink3)}textarea.fin{min-height:130px;resize:vertical}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.cinfo{display:flex;flex-direction:column;gap:14px}
+.icard{padding:22px;background:var(--cream);border-radius:var(--rad-sm);display:flex;align-items:flex-start;gap:15px}.iicon{width:38px;height:38px;border-radius:999px;background:rgba(143,194,51,.16);display:flex;align-items:center;justify-content:center;color:var(--lime-dd);flex-shrink:0}.iicon .icon{width:17px;height:17px}
+.ilab{font-weight:700;color:var(--ink);font-size:12.5px;margin-bottom:3px}.ival{color:var(--ink2);font-size:13px}
+.hcard2{padding:20px 22px;border-radius:var(--rad-sm);background:var(--night);display:flex;gap:14px;align-items:flex-start}.hcard2 .icon{width:19px;height:19px;color:var(--lime);flex-shrink:0;margin-top:2px}.hcard2 b{font-size:12.5px;color:var(--onnight);display:block;margin-bottom:5px}.hcard2 span{font-size:12px;color:var(--onnight2);line-height:1.7}
+.fok{display:none;padding:24px;background:rgba(143,194,51,.14);border-radius:var(--rad-sm);text-align:center;color:var(--lime-dd);font-weight:700;align-items:center;justify-content:center;gap:10px}.fok.show{display:flex}.fok .icon{width:20px;height:20px}
+@media(max-width:900px){.cgrid{grid-template-columns:1fr}}@media(max-width:600px){.frow{grid-template-columns:1fr}}
 
-/* ═══════════════════════════════════════════════
-   FOOTER
-   ═══════════════════════════════════════════════ */
-.ft{background:#022c22;border-radius:32px 32px 0 0;color:rgba(255,255,255,.6);padding:68px 24px 24px}
-.ft-in{max-width:var(--mw);margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
-.ft-logo{font-family:var(--serif);font-size:20px;font-weight:700;color:#fff;margin-bottom:12px;display:flex;align-items:center;gap:7px}
-.ft-logo .fi{width:28px;height:28px;background:var(--g700);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:13px}
-.ft-logo .ac{color:var(--g500)}
-.ft-desc{font-size:12px;line-height:1.7;max-width:280px}
-.ft-t{color:#fff;font-weight:700;font-size:11px;margin-bottom:16px;letter-spacing:1.5px;text-transform:uppercase}
-.ft-links li{margin-bottom:9px}
-.ft-links a{font-size:12px;color:rgba(255,255,255,.5);transition:color .3s;cursor:pointer}
-.ft-links a:hover{color:var(--g400)}
-.ft-bot{max-width:var(--mw);margin:36px auto 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.05);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-.ft-copy{font-size:11px;color:rgba(255,255,255,.3)}
-.ft-soc{display:flex;gap:8px}
-.ft-soc a{width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:12px;color:rgba(255,255,255,.4);transition:all .3s}
-.ft-soc a:hover{background:var(--g700);border-color:var(--g700);color:#fff}
-@media(max-width:900px){.ft-in{grid-template-columns:1fr 1fr}}
-@media(max-width:600px){.ft-in{grid-template-columns:1fr}}
+.ft{background:var(--night);color:var(--onnight2);padding:68px 28px 24px}.ft-in{max-width:var(--mw);margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
+.ft-logo{display:flex;align-items:center;gap:10px;margin-bottom:16px}.ft-logo img{height:32px}
+.ft-desc{font-size:12.5px;line-height:1.7;max-width:280px}
+.ft-t{color:var(--onnight);font-weight:700;font-size:11px;margin-bottom:18px;letter-spacing:1.5px;text-transform:uppercase}.ft-links li{margin-bottom:10px;display:flex;align-items:center;gap:9px}.ft-links .icon{width:13px;height:13px;color:var(--lime);flex-shrink:0}.ft-links a{font-size:12.5px;color:var(--onnight2);transition:color .3s;cursor:pointer}.ft-links a:hover{color:var(--onnight)}
+.ft-bot{max-width:var(--mw);margin:40px auto 0;padding-top:20px;border-top:1px solid rgba(244,247,234,.1);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}.ft-copy{font-size:11.5px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}.ft-copy a{color:var(--onnight2);transition:color .3s}.ft-copy a:hover{color:var(--onnight)}
+.ft-soc{display:flex;gap:8px}.ft-soc a{width:34px;height:34px;border-radius:999px;background:var(--night2);display:flex;align-items:center;justify-content:center;color:var(--onnight2);transition:all .3s}.ft-soc a .icon{width:15px;height:15px}.ft-soc a:hover{background:var(--lime);color:var(--night)}
+@media(max-width:900px){.ft-in{grid-template-columns:1fr 1fr}}@media(max-width:600px){.ft-in{grid-template-columns:1fr}}
 
-/* ═══════════════════════════════════════════════
-   WHATSAPP
-   ═══════════════════════════════════════════════ */
-.wa{position:fixed;bottom:22px;right:22px;z-index:999;width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;border:0;display:flex;align-items:center;justify-content:center;font-size:25px;box-shadow:0 5px 22px rgba(37,211,102,.35);transition:all .3s;animation:pwa 2.5s infinite}
-.wa:hover{transform:scale(1.1);box-shadow:0 8px 32px rgba(37,211,102,.45)}
-@keyframes pwa{0%,100%{box-shadow:0 5px 22px rgba(37,211,102,.35)}50%{box-shadow:0 5px 36px rgba(37,211,102,.55)}}
-
-/* ════════════ LIGHTBOX ════════════ */
-.lb{position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;padding:32px;backdrop-filter:blur(4px)}
-.lb.open{display:flex}
-.lb img{max-width:90vw;max-height:85vh;border-radius:10px;object-fit:contain}
-.lb-x{position:absolute;top:18px;right:22px;color:#fff;font-size:30px;background:0;border:0;cursor:pointer;opacity:.7;transition:opacity .3s}
-.lb-x:hover{opacity:1}
+.wa{position:fixed;bottom:24px;right:24px;z-index:999;width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;border:0;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 28px -8px rgba(37,211,102,.5);transition:all .3s}.wa .icon{width:27px;height:27px;stroke:none;fill:currentColor}.wa:hover{transform:scale(1.08)}
+.cookiebar{display:none;position:fixed;left:16px;right:16px;bottom:16px;z-index:1500;max-width:760px;margin:0 auto;background:var(--night);color:var(--onnight);border-radius:16px;padding:20px 24px;box-shadow:0 24px 50px -20px rgba(21,31,13,.6);align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.cookiebar.show{display:flex}
+.cookiebar p{font-size:12.5px;color:var(--onnight2);line-height:1.6;margin:0;flex:1;min-width:220px}
+.cookiebar a{color:var(--lime);text-decoration:underline;text-underline-offset:2px}
+.cookiebtns{display:flex;gap:10px;flex-shrink:0}
+.cookiebtns .btn{padding:11px 20px;font-size:12px}
+.cookiebtns .bo{color:var(--onnight2);border-color:rgba(244,247,234,.25)}
+.cookiebtns .bo:hover{color:var(--onnight);border-color:var(--onnight)}
+@media(max-width:480px){.cookiebar{flex-direction:column;align-items:stretch}.cookiebtns{justify-content:stretch}.cookiebtns .btn{flex:1;justify-content:center}}
+.lb{position:fixed;inset:0;z-index:2000;background:rgba(21,31,13,.96);display:none;align-items:center;justify-content:center;padding:32px}.lb.open{display:flex}.lb img{max-width:90vw;max-height:85vh;object-fit:contain;border-radius:12px}.lb-x{position:absolute;top:20px;right:24px;color:#fff;background:0;border:0;cursor:pointer;padding:8px}.lb-x .icon{width:26px;height:26px}
+@media(prefers-reduced-motion:reduce){.leaf-float,.scrollcue,.marquee-track,.hero-blob,.hero-tex,.route,.hub-ring,.node-ring,.prnode::after,.hcard::before,.hcard-mask img{animation:none!important}.hcard{transform:none!important}}
 </style>
+<!-- Analytics: create a free Google Analytics 4 property at https://analytics.google.com,
+     then replace G-XXXXXXXXXX below with your real Measurement ID.
+     Until replaced, this loads nothing. Even once configured, it only fires
+     after the visitor accepts cookies in the banner (see cookieChoice() below). -->
+<script>
+var GA_ID='G-XXXXXXXXXX';
+function loadGA(){
+if(GA_ID.indexOf('XXXXXXXXXX')!==-1)return;
+var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;document.head.appendChild(s);
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+window.gtag=gtag;
+gtag('js',new Date());gtag('config',GA_ID);
+}
+</script>
 </head>
 <body>
+<noscript>
+<h1>DCEvel US LLC — Tropical Fruit Import &amp; Distribution from Miami</h1>
+<p>North American subsidiary of the DCEvel group: we import and distribute organic banana, green plantain and MD2 Golden pineapple of Ecuadorian origin across the United States. FDA Registered, USDA Organic, Global G.A.P., Fair Trade USA, Non-GMO and HACCP certified.</p>
+<p>Address: Miami, Florida, USA · Phone: +1 (305) 600-7000 · Email: info@dcevelusllc.com</p>
+<p>Enable JavaScript to view the full site, or contact us directly using the details above.</p>
+</noscript>
+<svg style="display:none" aria-hidden="true">
+<symbol id="i-leaf" viewBox="0 0 24 24"><path d="M4 20c0-9 6-15 16-16-1 10-7 16-16 16Z"/><path d="M4 20c3-4 7-7 11-9"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3.5v5.2c0 5-3.4 8.6-8 9.8-4.6-1.2-8-4.8-8-9.8V6.5L12 3Z"/><path d="M8.5 12l2.4 2.5L16 9"/></symbol>
+<symbol id="i-ship" viewBox="0 0 24 24"><path d="M3 17l1.5-6h15L21 17"/><path d="M6 11V6h5l3 5"/><path d="M2 20c1.5 1.2 3 1.2 4.5 0s3-1.2 4.5 0 3 1.2 4.5 0 3-1.2 4.5 0"/></symbol>
+<symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 3v18M5 7l14 10M19 7 5 17"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 6 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-6-3.8-9s1.3-6.5 3.8-9Z"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12l6 6L20 6"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.6 7-12a7 7 0 1 0-14 0c0 5.4 7 12 7 12Z"/><circle cx="12" cy="9" r="2.6"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M6 3h3l1.5 4-2 1.6a12 12 0 0 0 6.9 6.9l1.6-2 4 1.5v3a2 2 0 0 1-2.2 2A17 17 0 0 1 4 5.2 2 2 0 0 1 6 3Z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 6 9 7 9-7"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+<symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12.02 2C6.5 2 2 6.5 2 12.02c0 1.83.5 3.55 1.36 5.03L2 22l5.1-1.33a9.98 9.98 0 0 0 4.92 1.28h.01c5.52 0 10-4.5 10-10.02C22.03 6.5 17.55 2 12.02 2Zm5.85 14.32c-.25.7-1.44 1.34-1.98 1.4-.53.06-1.02.28-3.42-.72-2.9-1.2-4.76-4.13-4.9-4.32-.14-.2-1.17-1.56-1.17-2.98s.75-2.12 1.02-2.4c.26-.29.57-.36.76-.36.2 0 .38 0 .55.01.18.01.42-.07.65.5.25.6.85 2.08.92 2.23.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.6.17.3.77 1.28 1.66 2.07 1.14 1.02 2.1 1.34 2.4 1.49.3.15.47.13.65-.07.18-.2.75-.87.95-1.17.2-.3.4-.24.66-.14.27.1 1.7.8 1.99.95.29.14.48.21.55.33.07.12.07.68-.18 1.38Z"/></symbol>
+<symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 9V6.5c0-.8.5-1 .9-1H16V2h-2.3C11.4 2 10 3.6 10 6.2V9H8v3.5h2V22h3v-9.5h2.4L16 9h-2Z"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1"/></symbol>
+<symbol id="i-in" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8.5" r="1.2"/><path d="M8 11.5V18M12 18v-4c0-1.5 1-2.5 2.3-2.5S16.5 12 16.5 13.5V18"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+<symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 4v16M6 14l6 6 6-6"/></symbol>
+<symbol id="i-leaf2" viewBox="0 0 24 24"><path d="M3 21c8-1 15-6 18-18-9 1-16 6-18 18Z"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.8-4.8"/></symbol>
+<symbol id="i-box" viewBox="0 0 24 24"><path d="M3 8l9-5 9 5-9 5-9-5Z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></symbol>
+<symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 6h11v10H2z"/><path d="M13 10h4l4 3v3h-8z"/><circle cx="6.5" cy="18.5" r="1.6"/><circle cx="17.5" cy="18.5" r="1.6"/></symbol>
+<symbol id="i-headset" viewBox="0 0 24 24"><path d="M4 13a8 8 0 0 1 16 0"/><rect x="2.5" y="13" width="4.5" height="6" rx="1.5"/><rect x="17" y="13" width="4.5" height="6" rx="1.5"/><path d="M19.5 19v.5A3.5 3.5 0 0 1 16 23h-2.5"/></symbol>
+</svg>
+<div class="navwrap"><nav class="nav" id="nav"><div class="ni">
+<a class="nlogo" href="#home" id="nlogo" aria-label="DCEvel US LLC">
+<img id="nlogo-img" src="images/logo.png" alt="DCEvel US LLC">
+<span class="word" id="nlogo-txt" style="display:none;color:var(--onnight);font-family:var(--display);font-weight:700">DCEvel US</span>
+</a>
+<ul class="nlinks" id="nlinks"><li><a href="#home">Home</a></li><li><a href="#products">Products</a></li><li><a href="#about">About</a></li><li><a href="#process">Process</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#contact">Contact</a></li></ul>
+<div class="nright">
+<div class="lsw"><button class="lbtn" id="bEs" onclick="setL('es')">ES</button><button class="lbtn on" id="bEn" onclick="setL('en')">EN</button></div>
+<a class="btn bp ncta" id="ncta" href="#contact">Contact sales</a>
+<button class="hbg" id="hbg" onclick="togM()" aria-label="Menu"><span id="h1"></span><span id="h2"></span><span id="h3"></span></button>
+</div>
+</div></nav></div>
+<div class="mmenu" id="mm"><a href="#home" onclick="clsM()">Home</a><a href="#products" onclick="clsM()">Products</a><a href="#about" onclick="clsM()">About</a><a href="#process" onclick="clsM()">Process</a><a href="#gallery" onclick="clsM()">Gallery</a><a href="#contact" onclick="clsM()">Contact</a></div>
 
-<!-- ═══ NAVBAR ═══ -->
-<nav class="nav" id="nav">
-  <div class="wrap ni">
-    <a class="nlogo" href="#home" id="nlogo"><img id="nlogo-img" src="" alt="" style="height:36px;display:none"><span id="nlogo-txt"><span class="nlogo-i" style="background:var(--g500)">🌎</span><span>DCEvel <b style="color:var(--g500)">US</b></span></span></a>
-    <ul class="nlinks" id="nlinks"></ul>
-    <div class="nright">
-      <div class="lsw">
-        <button class="lbtn on" id="bEs" onclick="setL('es')">ES</button>
-        <button class="lbtn" id="bEn" onclick="setL('en')">EN</button>
-      </div>
-      <button class="hbg" id="hbg" onclick="togM()"><span id="h1"></span><span id="h2"></span><span id="h3"></span></button>
-    </div>
-  </div>
-  <div class="mmenu" id="mm"></div>
-</nav>
-
-<!-- ═══ HERO ═══ -->
+<main>
 <section class="hero" id="home">
-  <div class="hero-bg"><img id="himg" src="" alt=""><div class="hero-ov"></div><div class="hero-pat"></div></div>
-  <div class="hero-c">
-    <div>
-      <div class="hero-tag r" id="htag"></div>
-      <h1 class="r d1" id="htit"></h1>
-      <p class="sub r d2" id="hsub"></p>
-      <div class="hero-btns r d3">
-        <a class="btn bp" href="#products" id="hb1"></a>
-        <a class="btn bo" href="#contact" id="hb2"></a>
-      </div>
-    </div>
-    <div class="hero-vis">
-      <div class="hcard" id="hcard"><div class="hcard-ph"><span class="em">🍌</span><span class="lb">Premium Banana</span></div></div>
-      <div class="hbadge" style="top:8%;right:-6%">🌍 30+ <span id="hcountry"></span></div>
-      <div class="hbadge" style="bottom:16%;left:-6%">✅ Global G.A.P.</div>
-    </div>
-  </div>
+<div class="hero-tex"></div><div class="hero-glow"></div>
+<div class="hero-blob hb1"></div><div class="hero-blob hb2"></div><div class="hero-blob hb3"></div>
+<div class="spark sp1"></div><div class="spark sp2"></div><div class="spark sp3"></div><div class="spark sp4"></div>
+<div class="leaf-float l1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><use href="#i-leaf2"/></svg></div>
+<div class="leaf-float l2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><use href="#i-leaf2"/></svg></div>
+<div class="leaf-float l3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><use href="#i-leaf2"/></svg></div>
+<div class="hero-c">
+<div>
+<div class="hero-tagline r"><i><svg class="icon"><use href="#i-leaf"/></svg></i><span id="htag">Import &amp; distribution</span></div>
+<h1 class="r d1" id="htit">Your trusted tropical fruit partner</h1>
+<p class="sub r d1" id="hsub">We connect Latin America's agricultural wealth with North America's most demanding markets. Certified origin banana, plantain and pineapple.</p>
+<div class="hero-meta r d2" id="hmeta"><span><svg class="icon"><use href="#i-shield"/></svg>FDA Registered</span><span><svg class="icon"><use href="#i-snow"/></svg>Cold chain</span><span><svg class="icon"><use href="#i-truck"/></svg>US delivery</span></div>
+<div class="hero-btns r d2"><a class="btn bp" href="#products" id="hb1">View products</a><a class="btn bo-dark" href="#contact" id="hb2">Contact sales</a></div>
+</div>
+<div class="hero-vis r ri">
+<div class="hcard" id="hcard"><div class="hcard-mask"><img id="hcimg" src="images/trabajadorplatano.png" alt="Farm worker carrying a bunch of plantains"></div>
+</div>
+</div>
+</div>
+<div class="scrollcue"><span id="scrolltxt">Discover</span><svg class="icon"><use href="#i-arrow-down"/></svg></div>
 </section>
 
-<!-- ═══ STATS ═══ -->
-<div style="padding:0 24px"><div class="stats r" id="stats"></div></div>
+<div class="wrap"><div class="stats r" id="stats"><div class="st-i"><div class="st-v" data-count="10+">10+</div><div class="st-l">Years of operation</div></div><div class="st-i"><div class="st-v" data-count="15+">15+</div><div class="st-l">States served</div></div><div class="st-i"><div class="st-v" data-count="FDA">FDA</div><div class="st-l">Registered</div></div><div class="st-i"><div class="st-v" data-count="24h">24h</div><div class="st-l">Guaranteed response</div></div></div></div>
 
-<!-- ═══ PRODUCTS ═══ -->
-<section class="prods" id="products">
-  <div class="wrap">
-    <div class="tc"><div class="tag r" id="ptag"></div><h2 class="stitle r d1" id="ptit"></h2><p class="ssub mx r d2" id="psub"></p></div>
-    <div class="pgrid" id="pgrid"></div>
-  </div>
-</section>
+<section class="prods" id="products"><div class="wrap">
+<div class="tc shead"><h2 class="stitle r" id="ptit">Premium origin fruits</h2><div class="divider r d1"></div><p class="ssub mx r d1" id="psub">We import directly from certified farms in Ecuador, with full traceability from field to your warehouse.</p></div>
+<div class="pgrid" id="pgrid"><div class="pcard r d1"><div class="pimg"><img src="images/banana.jpg" alt="Organic Banana" loading="lazy"></div><div class="pbody"><h3 class="pname">Organic Banana</h3><p class="pdesc">Organic Ecuadorian Cavendish export banana. USDA Organic certified, ideal for supermarket chains and wholesale distributors.</p><div class="pfeats"><span class="pfeat">USDA Organic</span><span class="pfeat">FDA Compliant</span><span class="pfeat">Year-round supply</span><span class="pfeat">Custom labeling</span></div></div></div><div class="pcard r d2"><div class="pimg"><img src="images/platano.jpg" alt="Green Plantain" loading="lazy"></div><div class="pbody"><h3 class="pname">Green Plantain</h3><p class="pdesc">Barraganete plantain for the US Hispanic and Caribbean market. Star product with consistent demand and attractive margins.</p><div class="pfeats"><span class="pfeat">High demand</span><span class="pfeat">Consistent sizing</span><span class="pfeat">Cold chain</span><span class="pfeat">Bulk available</span></div></div></div><div class="pcard r d3"><div class="pimg"><img src="images/pina.jpg" alt="MD2 Golden Pineapple" loading="lazy"></div><div class="pbody"><h3 class="pname">MD2 Golden Pineapple</h3><p class="pdesc">Extra sweet MD2 pineapple, the most demanded in the North American market. Perfect crown, uniform ripening and premium presentation.</p><div class="pfeats"><span class="pfeat">MD2 Golden</span><span class="pfeat">16+ Brix</span><span class="pfeat">Retail ready</span><span class="pfeat">Private label</span></div></div></div></div>
+</div></section>
 
-<!-- ═══ ABOUT ═══ -->
-<section class="about" id="about">
-  <div class="wrap about-in">
-    <div class="r l">
-      <div class="tag" id="atag"></div>
-      <h2 class="stitle" id="atit"></h2>
-      <div class="about-txt" id="atxt"></div>
-    </div>
-    <div class="vgrid" id="vgrid"></div>
-  </div>
-</section>
+<section class="about" id="about"><div class="wrap about-in">
+<div class="a-photo r l"><img id="aimg" src="images/nosotros.jpg" alt="DCEvel US team at operations" loading="lazy"></div>
+<div>
+<h2 class="stitle r" id="atit">Commercial bridge between Ecuador and the United States</h2>
+<div class="about-txt r d1" id="atxt"><p>DCEvel US LLC is the North American subsidiary of the DCEvel group, operating from Miami as an import and distribution hub for premium tropical fruits across the United States.</p><p>With over a decade of direct relationships with Ecuadorian producers, we eliminate intermediaries to offer the best price without sacrificing quality.</p></div>
+<div class="vgrid" id="vgrid"><div class="vcard r ri d1"><div class="vic"><svg class="icon"><use href="#i-shield"/></svg></div><div class="vtit">Direct chain</div><div class="vdesc">No intermediaries. From producer to your business.</div></div><div class="vcard r ri d2"><div class="vic"><svg class="icon"><use href="#i-check"/></svg></div><div class="vtit">FDA Compliance</div><div class="vdesc">All our products comply with federal regulations.</div></div><div class="vcard r ri d3"><div class="vic"><svg class="icon"><use href="#i-globe"/></svg></div><div class="vtit">Integrated logistics</div><div class="vdesc">National coverage with our own distribution network.</div></div><div class="vcard r ri d4"><div class="vic"><svg class="icon"><use href="#i-leaf"/></svg></div><div class="vtit">Dedicated support</div><div class="vdesc">Commercial executive assigned to each account.</div></div></div>
+</div>
+</div></section>
 
-<!-- ═══ PROCESS ═══ -->
-<section class="proc" id="process">
-  <div class="wrap">
-    <div class="tc"><div class="tag r" id="prtag"></div><h2 class="stitle r d1" id="prtit"></h2><p class="ssub mx r d2" id="prsub"></p></div>
-    <div class="prgrid" id="prgrid"></div>
-  </div>
-</section>
+<section class="proc" id="process"><div class="wrap">
+<div class="tc shead"><h2 class="stitle r" id="prtit">Simplified process for you</h2><div class="divider r d1"></div><p class="ssub mx r d1" id="prsub">We handle the entire logistics chain so you can focus on your business.</p></div>
+<div class="prgrid" id="prgrid"><div class="prcard r d1" style="--pi:0"><div class="prnode"><svg class="icon"><use href="#i-leaf"/></svg></div><div class="prnum">01</div><h3 class="prtit">Consultation</h3><p class="prdesc">We evaluate your volume, frequency and specification needs.</p></div><div class="prcard r d2" style="--pi:1"><div class="prnode"><svg class="icon"><use href="#i-search"/></svg></div><div class="prnum">02</div><h3 class="prtit">Quotation</h3><p class="prdesc">Customized commercial proposal in less than 24 hours.</p></div><div class="prcard r d3" style="--pi:2"><div class="prnode"><svg class="icon"><use href="#i-box"/></svg></div><div class="prnum">03</div><h3 class="prtit">Import</h3><p class="prdesc">Complete import management, customs and FDA compliance.</p></div><div class="prcard r d4" style="--pi:3"><div class="prnode"><svg class="icon"><use href="#i-truck"/></svg></div><div class="prnum">04</div><h3 class="prtit">Control</h3><p class="prdesc">Quality inspection at destination port before release.</p></div><div class="prcard r d5" style="--pi:4"><div class="prnode"><svg class="icon"><use href="#i-ship"/></svg></div><div class="prnum">05</div><h3 class="prtit">Delivery</h3><p class="prdesc">Refrigerated door-to-door distribution throughout the US.</p></div><div class="prcard r d6" style="--pi:5"><div class="prnode"><svg class="icon"><use href="#i-headset"/></svg></div><div class="prnum">06</div><h3 class="prtit">Follow-up</h3><p class="prdesc">Continuous feedback and order adjustment based on demand.</p></div></div>
+</div></section>
 
-<!-- ═══ GALLERY ═══ -->
-<section class="gal" id="gallery">
-  <div class="wrap">
-    <div class="tc"><div class="tag r" id="gtag"></div><h2 class="stitle r d1" id="gtit"></h2><p class="ssub mx r d2" id="gsub"></p></div>
-    <div class="ggrid" id="ggrid"></div>
-  </div>
-</section>
+<div class="reach r"><div class="wrap">
+<div class="tc" style="margin-bottom:40px"><h3 class="stitle light" style="font-size:clamp(22px,3vw,30px)" id="reachtit">From the farm to your warehouse</h3><p class="ssub mx" id="reachlab">Origin in Ecuador, entry through Miami, distributed to over 15 states</p></div>
+<div class="reach-map">
+<svg class="reach-svg" viewBox="0 0 900 400" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+<defs><pattern id="mapdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="rgba(244,247,234,.14)"/></pattern></defs>
+<rect width="900" height="400" fill="url(#mapdots)"/>
+<path class="route" d="M70,200 C300,140 480,140 480,200"/>
+<path class="route" d="M480,200 C620,240 700,220 830,200"/>
+<circle class="hub-ring" cx="70" cy="200" r="10"/>
+<circle class="hub-dot" cx="70" cy="200" r="6"/>
+<circle class="node-ring" cx="480" cy="200" r="9"/>
+<circle class="node-dot" cx="480" cy="200" r="6"/>
+<circle class="node-ring" cx="830" cy="200" r="8"/>
+<circle class="node-dot" cx="830" cy="200" r="5"/>
+<circle class="mover" r="4"><animateMotion dur="4s" repeatCount="indefinite" path="M70,200 C300,140 480,140 480,200"/></circle>
+<circle class="mover" r="4"><animateMotion dur="4.6s" repeatCount="indefinite" path="M480,200 C620,240 700,220 830,200"/></circle>
+</svg>
+<div class="map-label hub-label" style="left:7.8%;top:50%"><i><svg class="icon"><use href="#i-leaf"/></svg></i><span>Ecuador</span></div>
+<div class="map-label node-label" style="left:53.3%;top:50%" id="mapl1"><svg class="icon"><use href="#i-ship"/></svg><span>Miami, FL</span></div>
+<div class="map-label node-label" style="left:92.2%;top:50%" id="mapl2"><svg class="icon"><use href="#i-truck"/></svg><span>US-wide network</span></div>
+</div>
+</div></div>
 
-<!-- ═══ CERTS ═══ -->
-<div class="certs r"><div class="tag">CERTIFICACIONES</div><div class="certs-row" id="certs"></div></div>
+<section class="gal" id="gallery"><div class="wrap">
+<div class="tc shead"><h2 class="stitle r" id="gtit">Our operations</h2><div class="divider r d1"></div><p class="ssub mx r d1" id="gsub">From farms in Ecuador to warehouses in the United States.</p></div>
+</div>
+<div class="wrap"><div class="ggrid" id="ggrid"><div class="gitem r d1" onclick="opLb('images/galeria-1.jpg')"><img src="images/galeria-1.jpg" alt="Ecuador origin" loading="lazy"><div class="gcap">Ecuador origin</div></div><div class="gitem r d2" onclick="opLb('images/galeria-2.jpg')"><img src="images/galeria-2.jpg" alt="Quality control" loading="lazy"><div class="gcap">Quality control</div></div><div class="gitem r d3" onclick="opLb('images/galeria-3.jpg')"><img src="images/galeria-3.jpg" alt="Port of Miami" loading="lazy"><div class="gcap">Port of Miami</div></div><div class="gitem r d1" onclick="opLb('images/galeria-4.jpg')"><img src="images/galeria-4.jpg" alt="Distribution center" loading="lazy"><div class="gcap">Distribution center</div></div><div class="gitem r d2" onclick="opLb('images/galeria-5.jpg')"><img src="images/galeria-5.jpg" alt="Retail delivery" loading="lazy"><div class="gcap">Retail delivery</div></div><div class="gitem r d3" onclick="opLb('images/galeria-6.jpg')"><img src="images/galeria-6.jpg" alt="DCEvel US Team" loading="lazy"><div class="gcap">DCEvel US Team</div></div></div></div></section>
 
-<!-- ═══ CONTACT ═══ -->
-<section class="contact" id="contact">
-  <div class="wrap">
-    <div class="tc"><div class="tag r" id="ctag"></div><h2 class="stitle r d1" id="ctit"></h2><p class="ssub mx r d2" id="csub"></p></div>
-    <div class="cgrid">
-      <div class="r l">
-        <form class="cform" id="cform" onsubmit="return sendForm(event)">
-          <div class="frow"><input class="fin" name="name" required id="fn"><input class="fin" name="email" type="email" required id="fe"></div>
-          <div class="frow"><input class="fin" name="company" id="fc"><input class="fin" name="country" id="fco"></div>
-          <textarea class="fin" name="message" required id="fm"></textarea>
-          <button type="submit" class="btn bp" style="align-self:flex-start" id="fsend"></button>
-        </form>
-        <div class="fok" id="fok"></div>
-      </div>
-      <div class="cinfo r ri" id="cinfo"></div>
-    </div>
-  </div>
-</section>
+<div class="certs r"><span class="certs-lab" id="certslab">International certifications</span>
+<div class="marquee"><div class="marquee-track" id="certs"><div class="cbadge"><svg class="icon"><use href="#i-leaf"/></svg><span>USDA Organic</span></div><div class="cbadge"><svg class="icon"><use href="#i-shield"/></svg><span>FDA Registered</span></div><div class="cbadge"><svg class="icon"><use href="#i-leaf"/></svg><span>Global G.A.P.</span></div><div class="cbadge"><svg class="icon"><use href="#i-leaf"/></svg><span>Fair Trade USA</span></div><div class="cbadge"><svg class="icon"><use href="#i-leaf"/></svg><span>Non-GMO</span></div><div class="cbadge"><svg class="icon"><use href="#i-shield"/></svg><span>HACCP</span></div><div class="cbadge"><svg class="icon"><use href="#i-leaf"/></svg><span>USDA Organic</span></div><div class="cbadge"><svg class="icon"><use href="#i-shield"/></svg><span>FDA Registered</span></div><div class="cbadge"><svg class="icon"><use href="#i-leaf"/></svg><span>Global G.A.P.</span></div><div class="cbadge"><svg class="icon"><use href="#i-leaf"/></svg><span>Fair Trade USA</span></div><div class="cbadge"><svg class="icon"><use href="#i-leaf"/></svg><span>Non-GMO</span></div><div class="cbadge"><svg class="icon"><use href="#i-shield"/></svg><span>HACCP</span></div></div>
+</div>
+</div>
 
-<!-- ═══ FOOTER ═══ -->
-<footer class="ft">
-  <div class="ft-in">
-    <div><div class="ft-logo" id="ft-logo"><span class="fi" style="background:var(--g500)">🌎</span>DCEvel <b style="color:var(--g400)">US</b></div><p class="ft-desc" id="fdesc"></p></div>
-    <div><div class="ft-t" id="flt"></div><ul class="ft-links" id="flinks"></ul></div>
-    <div><div class="ft-t" id="fct"></div><ul class="ft-links" id="fclinks"></ul></div>
-    <div><div class="ft-t">Certificaciones</div><ul class="ft-links" id="fcerts"></ul></div>
-  </div>
-  <div class="ft-bot"><span class="ft-copy">&copy; 2026 DCEvel US LLC. <span id="frights"></span></span><div class="ft-soc" id="fsoc"></div></div>
+<section class="contact" id="contact"><div class="wrap">
+<div class="tc shead"><h2 class="stitle r" id="ctit">Let's start working together</h2><div class="divider r d1"></div><p class="ssub mx r d1" id="csub">Need a reliable tropical fruit supplier in the United States? Our commercial team is ready to serve you.</p></div>
+<div class="cgrid">
+<div class="r l">
+<form class="cform" id="cform" onsubmit="return sendForm(event)">
+<input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+<div class="frow">
+<div class="fld"><label class="flab" id="lfn" for="fn">Name</label><input class="fin" name="name" required id="fn" placeholder="Name"></div>
+<div class="fld"><label class="flab" id="lfe" for="fe">Email</label><input class="fin" name="email" type="email" required id="fe" placeholder="Email"></div>
+</div>
+<div class="frow">
+<div class="fld"><label class="flab" id="lfc" for="fc">Company</label><input class="fin" name="company" id="fc" placeholder="Company"></div>
+<div class="fld"><label class="flab" id="lfco" for="fco">State</label><input class="fin" name="country" id="fco" placeholder="State"></div>
+</div>
+<div class="fld"><label class="flab" id="lfm" for="fm">Your message</label><textarea class="fin" name="message" required id="fm" placeholder="Your message"></textarea></div>
+<button type="submit" class="btn bp" style="align-self:flex-start" id="fsend">SEND MESSAGE</button>
+</form>
+<div class="fok" id="fok"><svg class="icon"><use href="#i-check"/></svg><span id="fokt">Message sent. We will reach out within 24 hours.</span></div>
+</div>
+<div class="cinfo r ri" id="cinfo"><div class="icard"><div class="iicon"><svg class="icon"><use href="#i-pin"/></svg></div><div><div class="ilab">Address</div><div class="ival">Miami, Florida, USA</div></div></div><div class="icard"><div class="iicon"><svg class="icon"><use href="#i-phone"/></svg></div><div><div class="ilab">Phone</div><div class="ival">+1 (305) 600-7000</div></div></div><div class="icard"><div class="iicon"><svg class="icon"><use href="#i-mail"/></svg></div><div><div class="ilab">Email</div><div class="ival">info@dcevelusllc.com</div></div></div><div class="hcard2"><svg class="icon"><use href="#i-clock"/></svg><div><b>Business hours</b><span>Mon–Fri: 8:00 AM–6:00 PM (ET)</span></div></div></div>
+</div>
+</div></section>
+
+</main>
+
+<footer class="ft"><div class="ft-in">
+<div><div class="ft-logo"><img id="ftlogo-img" src="images/logo.png" alt="DCEvel US LLC"><span class="word" id="ftlogo-txt" style="display:none;color:var(--onnight);font-family:var(--display);font-weight:700">DCEvel US</span></div><p class="ft-desc" id="fdesc">DCEvel US LLC is the North American subsidiary of the DCEvel group, operating from Miami as an import and distribution hub for premium tropical fruits across the United States.</p></div>
+<div><div class="ft-t" id="flt">Navigation</div><ul class="ft-links" id="flinks"><li><a href="#home">Home</a></li><li><a href="#products">Products</a></li><li><a href="#about">About</a></li><li><a href="#process">Process</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#contact">Contact</a></li></ul></div>
+<div><div class="ft-t" id="fct">Contact</div><ul class="ft-links" id="fclinks"><li><svg class="icon"><use href="#i-pin"/></svg><a>Miami, Florida, USA</a></li><li><svg class="icon"><use href="#i-phone"/></svg><a href="tel:+1 (305) 600-7000">+1 (305) 600-7000</a></li><li><svg class="icon"><use href="#i-mail"/></svg><a href="mailto:info@dcevelusllc.com">info@dcevelusllc.com</a></li></ul></div>
+<div><div class="ft-t" id="fcertt">Certifications</div><ul class="ft-links" id="fcerts"><li><svg class="icon"><use href="#i-check"/></svg><a>USDA Organic</a></li><li><svg class="icon"><use href="#i-check"/></svg><a>FDA Registered</a></li><li><svg class="icon"><use href="#i-check"/></svg><a>Global G.A.P.</a></li><li><svg class="icon"><use href="#i-check"/></svg><a>Fair Trade USA</a></li></ul></div>
+</div>
+<div class="ft-bot"><span class="ft-copy">&copy; 2026 DCEvel US LLC. <span id="frights">All rights reserved.</span><a href="privacidad.html">Privacy notice</a></span><div class="ft-soc" id="fsoc"><a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg class="icon"><use href="#i-fb"/></svg></a><a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon"><use href="#i-ig"/></svg></a><a href="https://linkedin.com/company/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon"><use href="#i-in"/></svg></a></div></div>
 </footer>
 
-<!-- ═══ WHATSAPP ═══ -->
-<a class="wa" id="wa" target="_blank" rel="noopener" title="WhatsApp">💬</a>
+<a class="wa" id="wa" href="https://wa.me/13051234567?text=Hello%2C%20I%20need%20info%20about%20importing%20tropical%20fruit." target="_blank" rel="noopener" title="WhatsApp"><svg class="icon"><use href="#i-wa"/></svg></a>
 
-<!-- ═══ LIGHTBOX ═══ -->
-<div class="lb" id="lbox" onclick="clsLb()"><button class="lb-x" onclick="clsLb()">×</button><img id="lbimg" src="" alt=""></div>
+<div class="cookiebar" id="cookiebar">
+<p>We use our own and third-party cookies (like Google Analytics) to remember your preferences and understand how the site is used. Read more in our <a href="privacidad.html">privacy notice</a>.</p>
+<div class="cookiebtns"><button class="btn bo" id="cookieDecline" onclick="cookieChoice(false)">Decline</button><button class="btn bp" id="cookieAccept" onclick="cookieChoice(true)">Accept</button></div>
+</div>
+<div class="lb" id="lbox" onclick="clsLb()"><button class="lb-x" onclick="clsLb()" aria-label="Close"><svg class="icon"><use href="#i-close"/></svg></button><img id="lbimg" src="" alt=""></div>
 
 <script>
-/* ════════════════════════════════════════════════
-   DCEvel US — Todo se carga desde content.json
-   Para editar el sitio, edita content.json y ya.
-   ════════════════════════════════════════════════ */
 let D,L=localStorage.getItem('lang')||'en';
-const NAV={es:{home:'Inicio',products:'Productos',about:'Nosotros',process:'Proceso',gallery:'Galería',contact:'Contacto'},en:{home:'Home',products:'Products',about:'About Us',process:'Process',gallery:'Gallery',contact:'Contact'}};
-const UI={es:{countries:'Países',links:'Enlaces rápidos',contacto:'Contacto',rights:'Todos los derechos reservados.',hours:'Horario de atención',htxt:'Lun–Vie: 8:00–17:00<br>Sáb: 9:00–13:00',ok:'¡Mensaje enviado! Te contactaremos pronto.',wa:'¡Hola! Estoy interesado en sus productos de exportación.',fn:'Nombre completo',fe:'Correo electrónico',fc:'Empresa',fco:'País',fm:'Mensaje',fs:'Enviar mensaje →',dir:'Dirección',tel:'Teléfono'},en:{countries:'Countries',links:'Quick Links',contacto:'Contact',rights:'All rights reserved.',hours:'Business hours',htxt:'Mon–Fri: 8:00 AM–5:00 PM<br>Sat: 9:00 AM–1:00 PM',ok:'Message sent! We\'ll contact you soon.',wa:'Hello! I\'m interested in your export products.',fn:'Full name',fe:'Email',fc:'Company',fco:'Country',fm:'Message',fs:'Send message →',dir:'Address',tel:'Phone'}};
-const GC=['#1b4332','#2d6a4f','#40916c','#52b788','#386641','#588157'],GI=['🌿','👨‍🌾','🔍','📦','🚢','✈️'];
-
-function t(o){return o?(o[L]||o.es||o.en||''):''}
-
-/* ─── LOAD ─── */
-fetch('content.json?_='+Date.now()).then(r=>r.json()).then(d=>{D=d;render()}).catch(e=>console.error('Error cargando content.json:',e));
-
-/* ─── LANG ─── */
+// Real email delivery: create a free form at https://formspree.io, then paste your endpoint below.
+// Until replaced, the form still works via the WhatsApp shortcut only.
+const FORM_ENDPOINT='https://formspree.io/f/YOUR_FORM_ID';
+const NAV={es:{home:'Inicio',products:'Productos',about:'Nosotros',process:'Proceso',gallery:'Galería',contact:'Contacto'},en:{home:'Home',products:'Products',about:'About',process:'Process',gallery:'Gallery',contact:'Contact'}};
+const UI={es:{links:'Navegación',contacto:'Contacto',rights:'Todos los derechos reservados.',hours:'Horario de atención',htxt:'Lun–Vie: 8:00 AM–6:00 PM (ET)',ok:'Mensaje enviado. Te contactaremos en menos de 24 horas.',wa:'Hola, me interesa información sobre importación de frutas tropicales.',fn:'Nombre',fe:'Email',fc:'Empresa',fco:'Estado',fm:'Su mensaje',fs:'ENVIAR MENSAJE',dir:'Dirección',tel:'Teléfono',cta:'Contactar ventas',reachtit:'De la finca a su almacén',reach:'Origen en Ecuador, entrada por Miami, distribución a más de 15 estados',mapnodes:[['i-ship','Miami, FL'],['i-truck','Red nacional EE.UU.']],certs:'Certificaciones internacionales',scroll:'Descubrir'},en:{links:'Navigation',contacto:'Contact',rights:'All rights reserved.',hours:'Business hours',htxt:'Mon–Fri: 8:00 AM–6:00 PM (ET)',ok:'Message sent. We will reach out within 24 hours.',wa:'Hello, I need info about importing tropical fruit.',fn:'Name',fe:'Email',fc:'Company',fco:'State',fm:'Your message',fs:'SEND MESSAGE',dir:'Address',tel:'Phone',cta:'Contact sales',reachtit:'From the farm to your warehouse',reach:'Origin in Ecuador, entry through Miami, distributed to over 15 states',mapnodes:[['i-ship','Miami, FL'],['i-truck','US-wide network']],certs:'International certifications',scroll:'Discover'}};
+const VICONS=['i-shield','i-check','i-globe','i-leaf'];
+const PRICONS=['i-leaf','i-search','i-box','i-truck','i-ship','i-headset'];
+const CICONS={'Global G.A.P.':'i-leaf','USDA Organic':'i-leaf','FDA Registered':'i-shield','Fair Trade USA':'i-leaf','Non-GMO':'i-leaf','HACCP':'i-shield'};
+function t(o){return o?(o[L]||o.es||''):''}function $(id){return document.getElementById(id)}function imgExists(s){return s&&s.indexOf('.')>0}
+function icon(name,cls){return '<svg class="icon'+(cls?' '+cls:'')+'"><use href="#'+name+'"/></svg>'}
+fetch('content.json?_='+Date.now()).then(r=>r.json()).then(d=>{D=d;render()}).catch(e=>console.error(e));
 function setL(l){L=l;localStorage.setItem('lang',l);document.documentElement.lang=l;$('bEs').className='lbtn'+(l==='es'?' on':'');$('bEn').className='lbtn'+(l==='en'?' on':'');render()}
-
-/* ─── RENDER ─── */
 function render(){
-  if(!D)return;
-  const u=UI[L],n=NAV[L],secs=['home','products','about','process','gallery','contact'];
-
-  // Nav
-  $('nlinks').innerHTML=secs.map(s=>`<li><a href="#${s}" onclick="clsM()">${n[s]}</a></li>`).join('');
-  $('mm').innerHTML=secs.map(s=>`<a href="#${s}" onclick="clsM()">${n[s]}</a>`).join('');
-
-  // Logo (si hay imagen en content.json la usa, si no muestra texto)
-  if(D.empresa.logo&&imgExists(D.empresa.logo)){
-    $('nlogo-img').src=D.empresa.logo;$('nlogo-img').alt=D.empresa.nombre;$('nlogo-img').style.display='block';$('nlogo-txt').style.display='none';
-    $('ft-logo').innerHTML=`<img src="${D.empresa.logo}" alt="${D.empresa.nombre}" style="height:30px">`;
-  }
-  // Hero
-  $('htag').textContent=t(D.hero.etiqueta);
-  $('htit').textContent=t(D.hero.titulo);
-  $('hsub').textContent=t(D.hero.subtitulo);
-  $('hb1').textContent=t(D.hero.boton1)+' →';
-  $('hb2').textContent=t(D.hero.boton2);
-  tryImg('himg',D.hero.imagen);
-  $('hcountry').textContent=u.countries;
-
-  // Hero card
-  const fp=D.productos.lista[0];
-  if(fp&&fp.imagen&&imgExists(fp.imagen)){$('hcard').innerHTML=`<img src="${fp.imagen}" alt="${t(fp.nombre)}">`}
-
-  // Stats
-  $('stats').innerHTML=D.estadisticas.map(s=>`<div class="st-i"><div class="st-v">${s.valor}</div><div class="st-l">${t(s.texto)}</div></div>`).join('');
-
-  // Products
-  $('ptag').textContent=t(D.productos.etiqueta);
-  $('ptit').textContent=t(D.productos.titulo);
-  $('psub').textContent=t(D.productos.subtitulo);
-  $('pgrid').innerHTML=D.productos.lista.map((p,i)=>{
-    const hasI=imgExists(p.imagen);
-    return`<div class="pcard r d${i+1}"><div class="pimg">${hasI?`<img src="${p.imagen}" alt="${t(p.nombre)}" loading="lazy">`:`<div class="pimg-ph">${p.emoji||'🍎'}</div>`}</div><div class="pbody"><h3 class="pname">${t(p.nombre)}</h3><p class="pdesc">${t(p.descripcion)}</p><div class="pfeats">${p.caracteristicas.map(f=>`<span class="pfeat">${t(f)}</span>`).join('')}</div></div></div>`}).join('');
-
-  // About
-  $('atag').textContent=t(D.nosotros.etiqueta);
-  $('atit').textContent=t(D.nosotros.titulo);
-  $('atxt').innerHTML=D.nosotros.parrafos.map(p=>`<p>${t(p)}</p>`).join('');
-  $('vgrid').innerHTML=D.nosotros.valores.map((v,i)=>`<div class="vcard r ri d${i+1}"><div class="vic">${v.icono}</div><div class="vtit">${t(v.titulo)}</div><div class="vdesc">${t(v.desc)}</div></div>`).join('');
-
-  // Process
-  $('prtag').textContent=t(D.proceso.etiqueta);
-  $('prtit').textContent=t(D.proceso.titulo);
-  $('prsub').textContent=t(D.proceso.subtitulo);
-  $('prgrid').innerHTML=D.proceso.pasos.map((s,i)=>`<div class="prcard r d${i+1}"><div class="prnum">${s.num}</div><h3 class="prtit">${t(s.titulo)}</h3><p class="prdesc">${t(s.desc)}</p></div>`).join('');
-
-  // Gallery
-  $('gtag').textContent=t(D.galeria.etiqueta);
-  $('gtit').textContent=t(D.galeria.titulo);
-  $('gsub').textContent=t(D.galeria.subtitulo);
-  $('ggrid').innerHTML=D.galeria.imagenes.map((g,i)=>{
-    const c=GC[i%6],hasI=imgExists(g.src);
-    return`<div class="gitem r d${(i%3)+1}" onclick="opLb('${hasI?g.src:''}')">${hasI?`<img src="${g.src}" alt="${t(g.texto)}" loading="lazy">`:`<div class="gitem-ph" style="background:linear-gradient(135deg,${c},${c}dd)"><span style="font-size:40px">${GI[i]||'🍃'}</span></div>`}<div class="gcap">${t(g.texto)}</div></div>`}).join('');
-
-  // Certs
-  $('certs').innerHTML=(D.certificaciones||[]).map(c=>`<div class="cbadge">${c}</div>`).join('');
-
-  // Contact
-  $('ctag').textContent=t(D.contacto.etiqueta);
-  $('ctit').textContent=t(D.contacto.titulo);
-  $('csub').textContent=t(D.contacto.subtitulo);
-  $('fn').placeholder=u.fn;$('fe').placeholder=u.fe;$('fc').placeholder=u.fc;$('fco').placeholder=u.fco;$('fm').placeholder=u.fm;$('fsend').textContent=u.fs;$('fok').textContent=u.ok;
-
-  $('cinfo').innerHTML=`
-    <div class="icard"><div class="iicon">📍</div><div><div class="ilab">${u.dir}</div><div class="ival">${t(D.empresa.direccion)}</div></div></div>
-    <div class="icard"><div class="iicon">📞</div><div><div class="ilab">${u.tel}</div><div class="ival">${D.empresa.telefono}</div></div></div>
-    <div class="icard"><div class="iicon">✉️</div><div><div class="ilab">Email</div><div class="ival">${D.empresa.email}</div></div></div>
-    <div class="hcard2"><b>🕐 ${u.hours}</b><span>${u.htxt}</span></div>`;
-
-  // Footer
-  $('fdesc').textContent=t(D.nosotros.parrafos[0]);
-  $('flt').textContent=u.links;
-  $('flinks').innerHTML=secs.map(s=>`<li><a href="#${s}">${n[s]}</a></li>`).join('');
-  $('fct').textContent=u.contacto;
-  $('fclinks').innerHTML=`<li><a>${t(D.empresa.direccion)}</a></li><li><a href="tel:${D.empresa.telefono}">${D.empresa.telefono}</a></li><li><a href="mailto:${D.empresa.email}">${D.empresa.email}</a></li>`;
-  $('fcerts').innerHTML=(D.certificaciones||[]).slice(0,4).map(c=>`<li><a>${c}</a></li>`).join('');
-  $('frights').textContent=u.rights;
-  const so=D.empresa.redes||{};
-  $('fsoc').innerHTML=(so.facebook?`<a href="${so.facebook}" target="_blank" rel="noopener">f</a>`:'')+(so.instagram?`<a href="${so.instagram}" target="_blank" rel="noopener">ig</a>`:'')+(so.linkedin?`<a href="${so.linkedin}" target="_blank" rel="noopener">in</a>`:'');
-
-  // WhatsApp
-  $('wa').href=`https://wa.me/${D.empresa.whatsapp||'593412345678'}?text=${encodeURIComponent(u.wa)}`;
-
-  obs();
+if(!D)return;const u=UI[L],n=NAV[L],secs=['home','products','about','process','gallery','contact'];
+$('nlinks').innerHTML=secs.map(s=>'<li><a href="#'+s+'" onclick="clsM()">'+n[s]+'</a></li>').join('');
+$('mm').innerHTML=secs.map(s=>'<a href="#'+s+'" onclick="clsM()">'+n[s]+'</a>').join('');
+$('ncta').textContent=u.cta;
+if(D.empresa.logo&&imgExists(D.empresa.logo)){
+$('nlogo-img').src=D.empresa.logo;$('nlogo-img').style.display='block';$('nlogo-txt').style.display='none';
+$('ftlogo-img').src=D.empresa.logo;$('ftlogo-img').style.display='block';$('ftlogo-txt').style.display='none';
+}else{$('nlogo-img').style.display='none';$('nlogo-txt').style.display='block';$('ftlogo-img').style.display='none';$('ftlogo-txt').style.display='block'}
+$('htag').textContent=t(D.hero.etiqueta);
+$('htit').textContent=t(D.hero.titulo);$('hsub').textContent=t(D.hero.subtitulo);$('hb1').textContent=t(D.hero.boton1);$('hb2').textContent=t(D.hero.boton2);
+if(D.hero.imagen){$('hcimg').src=D.hero.imagen}
+$('scrolltxt').textContent=u.scroll;
+$('hmeta').innerHTML=['i-shield','i-snow','i-truck'].map((ic,i)=>{const labs={es:['Registrado FDA','Cadena de frío','Entrega en EE.UU.'],en:['FDA Registered','Cold chain','US delivery']};return '<span>'+icon(ic)+labs[L][i]+'</span>'}).join('');
+$('stats').innerHTML=D.estadisticas.map(function(s){return'<div class="st-i"><div class="st-v" data-count="'+s.valor+'">0</div><div class="st-l">'+t(s.texto)+'</div></div>'}).join('');
+$('ptit').textContent=t(D.productos.titulo);$('psub').textContent=t(D.productos.subtitulo);
+$('pgrid').innerHTML=D.productos.lista.map(function(p,i){var h=imgExists(p.imagen);return'<div class="pcard r d'+(i+1)+'"><div class="pimg">'+(h?'<img src="'+p.imagen+'" alt="'+t(p.nombre)+'" loading="lazy">':'')+'</div><div class="pbody"><h3 class="pname">'+t(p.nombre)+'</h3><p class="pdesc">'+t(p.descripcion)+'</p><div class="pfeats">'+p.caracteristicas.map(function(f){return'<span class="pfeat">'+t(f)+'</span>'}).join('')+'</div></div></div>'}).join('');
+$('atit').textContent=t(D.nosotros.titulo);$('atxt').innerHTML=D.nosotros.parrafos.map(function(p){return'<p>'+t(p)+'</p>'}).join('');
+if(D.nosotros.imagen)$('aimg').src=D.nosotros.imagen;
+$('vgrid').innerHTML=D.nosotros.valores.map(function(v,i){return'<div class="vcard r ri d'+(i+1)+'"><div class="vic">'+icon(VICONS[i%VICONS.length])+'</div><div class="vtit">'+t(v.titulo)+'</div><div class="vdesc">'+t(v.desc)+'</div></div>'}).join('');
+$('prtit').textContent=t(D.proceso.titulo);$('prsub').textContent=t(D.proceso.subtitulo);
+$('prgrid').innerHTML=D.proceso.pasos.map(function(s,i){return'<div class="prcard r d'+(i+1)+'" style="--pi:'+i+'"><div class="prnode">'+icon(PRICONS[i%PRICONS.length])+'</div><div class="prnum">'+s.num+'</div><h3 class="prtit">'+t(s.titulo)+'</h3><p class="prdesc">'+t(s.desc)+'</p></div>'}).join('');
+$('reachtit').textContent=u.reachtit;$('reachlab').textContent=u.reach;
+u.mapnodes.forEach(function(n,i){var el=$('mapl'+(i+1));if(el)el.innerHTML=icon(n[0])+'<span>'+n[1]+'</span>'});
+$('gtit').textContent=t(D.galeria.titulo);$('gsub').textContent=t(D.galeria.subtitulo);
+$('ggrid').innerHTML=D.galeria.imagenes.map(function(g,i){var h=imgExists(g.src);return'<div class="gitem r d'+((i%3)+1)+'" onclick="opLb(\''+(h?g.src:'')+'\')">'+(h?'<img src="'+g.src+'" alt="'+t(g.texto)+'" loading="lazy">':'')+'<div class="gcap">'+t(g.texto)+'</div></div>'}).join('');
+$('certslab').textContent=u.certs;
+var certList=D.certificaciones||[];
+var certHtml=certList.concat(certList).map(function(c){return'<div class="cbadge">'+icon(CICONS[c]||'i-shield')+'<span>'+c+'</span></div>'}).join('');
+$('certs').innerHTML=certHtml;
+$('ctit').textContent=t(D.contacto.titulo);$('csub').textContent=t(D.contacto.subtitulo);
+$('lfn').textContent=u.fn;$('lfe').textContent=u.fe;$('lfc').textContent=u.fc;$('lfco').textContent=u.fco;$('lfm').textContent=u.fm;
+$('fn').placeholder=u.fn;$('fe').placeholder=u.fe;$('fc').placeholder=u.fc;$('fco').placeholder=u.fco;$('fm').placeholder=u.fm;
+$('fsend').textContent=u.fs;$('fokt').textContent=u.ok;
+$('cinfo').innerHTML='<div class="icard"><div class="iicon">'+icon('i-pin')+'</div><div><div class="ilab">'+u.dir+'</div><div class="ival">'+t(D.empresa.direccion)+'</div></div></div><div class="icard"><div class="iicon">'+icon('i-phone')+'</div><div><div class="ilab">'+u.tel+'</div><div class="ival">'+D.empresa.telefono+'</div></div></div><div class="icard"><div class="iicon">'+icon('i-mail')+'</div><div><div class="ilab">Email</div><div class="ival">'+D.empresa.email+'</div></div></div><div class="hcard2">'+icon('i-clock')+'<div><b>'+u.hours+'</b><span>'+u.htxt+'</span></div></div>';
+$('fdesc').textContent=t(D.nosotros.parrafos[0]);
+$('flt').textContent=u.links;$('flinks').innerHTML=secs.map(function(s){return'<li><a href="#'+s+'">'+n[s]+'</a></li>'}).join('');
+$('fct').textContent=u.contacto;
+$('fclinks').innerHTML='<li>'+icon('i-pin')+'<a>'+t(D.empresa.direccion)+'</a></li><li>'+icon('i-phone')+'<a href="tel:'+D.empresa.telefono+'">'+D.empresa.telefono+'</a></li><li>'+icon('i-mail')+'<a href="mailto:'+D.empresa.email+'">'+D.empresa.email+'</a></li>';
+$('fcertt').textContent=u.certs;
+$('fcerts').innerHTML=(D.certificaciones||[]).slice(0,4).map(function(c){return'<li>'+icon('i-check')+'<a>'+c+'</a></li>'}).join('');
+$('frights').textContent=u.rights;
+var so=D.empresa.redes||{};
+$('fsoc').innerHTML=(so.facebook?'<a href="'+so.facebook+'" target="_blank" rel="noopener" aria-label="Facebook">'+icon('i-fb')+'</a>':'')+(so.instagram?'<a href="'+so.instagram+'" target="_blank" rel="noopener" aria-label="Instagram">'+icon('i-ig')+'</a>':'')+(so.linkedin?'<a href="'+so.linkedin+'" target="_blank" rel="noopener" aria-label="LinkedIn">'+icon('i-in')+'</a>':'');
+$('wa').href='https://wa.me/'+(D.empresa.whatsapp||'593412345678')+'?text='+encodeURIComponent(u.wa);
+obs();
+initCount();
 }
 
-/* ─── HELPERS ─── */
-function $(id){return document.getElementById(id)}
-function imgExists(src){return src&&!src.match(/\.(jpg|png|webp)$/) ? false : !!src}
-function tryImg(id,src){if(src) $(id).src=src}
-
-/* ─── NAV SCROLL ─── */
-window.addEventListener('scroll',()=>{
-  const s=scrollY>50,nav=$('nav');
-  nav.classList.toggle('s',s);
-  $('nlogo').style.color=s?'var(--g950)':'#fff';
-  document.querySelectorAll('.nlinks a').forEach(a=>a.style.color=s?'#333':'rgba(255,255,255,.85)');
-  document.querySelectorAll('.hbg span').forEach(b=>b.style.background=s?'#333':'#fff');
-  document.querySelectorAll('.lbtn:not(.on)').forEach(b=>b.style.color=s?'#333':'#fff');
-  document.querySelector('.lsw').style.borderColor=s?'rgba(0,0,0,.1)':'rgba(255,255,255,.25)';
-});
-
-/* ─── MOBILE MENU ─── */
-let mo=false;
-function togM(){mo=!mo;$('mm').classList.toggle('open',mo);$('h1').style.transform=mo?'rotate(45deg) translate(5px,5px)':'';$('h2').style.opacity=mo?'0':'1';$('h3').style.transform=mo?'rotate(-45deg) translate(5px,-5px)':''}
-function clsM(){if(mo)togM()}
-
-/* ─── SCROLL REVEAL ─── */
+/* reveal-on-scroll with a safety sweep so a fast/synthetic scroll can never leave
+   an element permanently stuck at opacity:0 */
 function obs(){
-  const o=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('v');o.unobserve(e.target)}})},{threshold:.1});
-  document.querySelectorAll('.r:not(.v)').forEach(el=>o.observe(el));
+var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('v');o.unobserve(e.target)}})},{threshold:.05,rootMargin:'0px 0px -5% 0px'});
+document.querySelectorAll('.r:not(.v)').forEach(function(el){o.observe(el)});
+var sweeping=false;
+function sweep(){sweeping=false;document.querySelectorAll('.r:not(.v)').forEach(function(el){var r=el.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>-innerHeight){el.classList.add('v');o.unobserve(el)}})}
+function onScroll(){if(!sweeping){sweeping=true;requestAnimationFrame(sweep)}}
+window.addEventListener('scroll',onScroll,{passive:true});
+window.addEventListener('resize',onScroll);
 }
 
-/* ─── LIGHTBOX ─── */
+/* animated count-up for stat numbers, run once when they enter view */
+function initCount(){
+var els=document.querySelectorAll('.st-v');
+var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){runCount(e.target);o.unobserve(e.target)}})},{threshold:.4});
+els.forEach(function(el){o.observe(el)});
+}
+function runCount(el){
+var raw=el.getAttribute('data-count')||'0';
+var m=raw.match(/^([\d.]+)(.*)$/);
+if(!m){el.textContent=raw;return}
+var target=parseFloat(m[1]),suffix=m[2],start=performance.now(),dur=1200;
+function step(now){
+var p=Math.min(1,(now-start)/dur);var eased=1-Math.pow(1-p,3);
+var val=target*eased;
+el.textContent=(Number.isInteger(target)?Math.round(val):val.toFixed(1))+suffix;
+if(p<1)requestAnimationFrame(step);
+}
+requestAnimationFrame(step);
+}
+
+/* hero parallax: background texture, big photo and script word drift at
+   different rates while the hero is in view */
+(function(){
+var hero=document.getElementById('home');
+var vis=document.querySelector('.hero-vis');
+var blobs=document.querySelectorAll('.hero-blob');
+var ticking=false;
+function apply(){
+ticking=false;
+var r=hero.getBoundingClientRect();
+if(r.bottom<0||r.top>innerHeight)return;
+var p=(0-r.top)/(r.height||1); // 0 at top of viewport entry .. progresses while scrolling
+if(vis)vis.style.transform='translateY('+(p*36)+'px)';
+blobs.forEach(function(b,i){b.style.marginTop=(p*(18+i*10))+'px'});
+}
+function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(apply)}}
+window.addEventListener('scroll',onScroll,{passive:true});
+apply();
+})();
+
+window.addEventListener('scroll',function(){$('nav').style.boxShadow=scrollY>20?'0 24px 50px -20px rgba(21,31,13,.6)':'0 20px 44px -20px rgba(21,31,13,.5)'});
+var mo=false;
+function togM(){mo=!mo;$('mm').classList.toggle('open',mo);$('h1').style.transform=mo?'rotate(45deg) translate(4px,5px)':'';$('h2').style.opacity=mo?'0':'1';$('h3').style.transform=mo?'rotate(-45deg) translate(4px,-5px)':''}
+function clsM(){if(mo)togM()}
 function opLb(s){if(!s)return;$('lbimg').src=s;$('lbox').classList.add('open');document.body.style.overflow='hidden'}
 function clsLb(){$('lbox').classList.remove('open');document.body.style.overflow=''}
-
-/* ─── CONTACT FORM → WhatsApp ─── */
+var formLoadedAt=Date.now(); // anti-spam: bots that fill+submit a form in under 3s are almost never human
 function sendForm(e){
-  e.preventDefault();
-  const f=e.target,fd=new FormData(f);
-  const msg=`*Nuevo contacto web*%0A👤 ${fd.get('name')}%0A📧 ${fd.get('email')}%0A🏢 ${fd.get('company')||'—'}%0A🌍 ${fd.get('country')||'—'}%0A💬 ${fd.get('message')}`;
-  window.open(`https://wa.me/${D.empresa.whatsapp}?text=${msg}`,'_blank');
-  f.style.display='none';$('fok').classList.add('show');
-  return false;
+e.preventDefault();
+var f=e.target,fd=new FormData(f);
+if(fd.get('_gotcha'))return false; // honeypot: only bots fill hidden fields
+if(Date.now()-formLoadedAt<3000)return false; // time trap: too fast to be a human filling the form
+var msg='*Nuevo contacto*%0A👤 '+fd.get('name')+'%0A📧 '+fd.get('email')+'%0A🏢 '+(fd.get('company')||'—')+'%0A🌍 '+(fd.get('country')||'—')+'%0A💬 '+fd.get('message');
+window.open('https://wa.me/'+D.empresa.whatsapp+'?text='+msg,'_blank');
+if(FORM_ENDPOINT.indexOf('YOUR_FORM_ID')===-1){
+fetch(FORM_ENDPOINT,{method:'POST',body:fd,headers:{'Accept':'application/json'}}).catch(function(){});
+}
+f.style.display='none';$('fok').classList.add('show');
+return false;
+}
+
+/* cookie consent: gate analytics behind an explicit choice, remember it,
+   and only show the banner once until the visitor decides */
+(function(){
+var stored=localStorage.getItem('cookieConsent');
+if(stored==='accepted')loadGA();
+if(!stored)$('cookiebar').classList.add('show');
+})();
+function cookieChoice(accepted){
+localStorage.setItem('cookieConsent',accepted?'accepted':'declined');
+$('cookiebar').classList.remove('show');
+if(accepted)loadGA();
 }
 </script>
 </body>
