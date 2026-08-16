@@ -560,8 +560,6 @@ e.preventDefault();
 var f=e.target,fd=new FormData(f);
 if(fd.get('_gotcha'))return false; // honeypot: only bots fill hidden fields
 if(Date.now()-formLoadedAt<3000)return false; // time trap: too fast to be a human filling the form
-var msg='*Nuevo contacto*%0A👤 '+fd.get('name')+'%0A📧 '+fd.get('email')+'%0A🏢 '+(fd.get('company')||'—')+'%0A🌍 '+(fd.get('country')||'—')+'%0A💬 '+fd.get('message');
-window.open('https://wa.me/'+D.empresa.whatsapp+'?text='+msg,'_blank');
 if(FORM_ENDPOINT.indexOf('YOUR_FORM_ID')===-1){
 fetch(FORM_ENDPOINT,{method:'POST',body:fd,headers:{'Accept':'application/json'}}).catch(function(){});
 }
